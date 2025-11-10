@@ -1,0 +1,998 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "CONowa",
+				"abbreviation": "CON",
+				"full": "The Campaign of Nowa",
+				"url": "https://discord.gg/hPUPY9v",
+				"authors": [
+					"MrVauxs"
+				],
+				"convertedBy": [
+					"MrVauxs"
+				],
+				"version": "1.0",
+				"color": "3399ff"
+			}
+		],
+		"includes": {
+			"class": [
+				"VariantSorcererByDevikyn",
+				"SterlingVermin"
+			],
+			"foundryClassFeature": [
+				"VariantSorcererByDevikyn",
+				"SterlingVermin"
+			],
+			"classFeature": [
+				"VariantSorcererByDevikyn",
+				"SterlingVermin"
+			],
+			"subclassFeature": [
+				"VariantSorcererByDevikyn",
+				"SterlingVermin",
+				"SterlingVermin:Patreon"
+			],
+			"monster": [
+				"VariantSorcererByDevikyn",
+				"SterlingVermin"
+			],
+			"optionalfeature": [
+				"VariantSorcererByDevikyn"
+			],
+			"subclass": [
+				"VariantSorcererByDevikyn",
+				"SterlingVermin",
+				"SterlingVermin:Patreon"
+			],
+			"itemProperty": [
+				"SterlingVermin"
+			],
+			"item": [
+				"SterlingVermin"
+			],
+			"baseitem": [
+				"SterlingVermin"
+			],
+			"magicvariant": [
+				"SterlingVermin"
+			],
+			"foundrySubclassFeature": [
+				"SterlingVermin",
+				"SterlingVermin:Patreon"
+			]
+		},
+		"dateAdded": 1596497919,
+		"dateLastModified": 1759251292,
+		"unlisted": true,
+		"_dateLastModifiedHash": "f913547326",
+		"edition": "classic"
+	},
+	"variantrule": [
+		{
+			"name": "Downtime Activity: Crafting",
+			"source": "CONowa",
+			"entries": [
+				"If you have access to a blueprint or have a relevant tool proficiency, you may craft an item during downtime.",
+				{
+					"name": "Resources",
+					"entries": [
+						"The process of crafting an item can vary from item to item, which is determined by the rarity of the item and the crafters proficiency with the tools to craft it.",
+						"When crafting, the outcome of a days worth of work is determined as follows:",
+						{
+							"type": "abilityGeneric",
+							"text": "{@dice d8} + relevant tool or skill proficiency bonus + progress - difficulty"
+						},
+						"The outcomes on specific rolls are listed below.",
+						{
+							"type": "table",
+							"caption": "Crafting Outcomes",
+							"colLabels": [
+								"Roll",
+								"Result"
+							],
+							"colStyles": [
+								"col-6 text-center",
+								"col-6 text-center"
+							],
+							"rows": [
+								[
+									"0-7",
+									"Status Quo"
+								],
+								[
+									"8-10",
+									"+1 Progress"
+								],
+								[
+									"11-13",
+									"+2 Progress"
+								],
+								[
+									"14+",
+									"The Item is Crafted"
+								]
+							]
+						},
+						"On completion, you pay the cost of the item in either resources or gold (usually half the original price)."
+					],
+					"type": "entries"
+				},
+				{
+					"type": "entries",
+					"name": "Difficulty",
+					"entries": [
+						"Below is a table specifying the difficulty to craft an item based on rarity.",
+						{
+							"type": "table",
+							"caption": "Item Difficulty and Progress Capstones",
+							"colLabels": [
+								"Item Rarity",
+								"Difficulty"
+							],
+							"colStyles": [
+								"col-6 text-center",
+								"col-6 text-center"
+							],
+							"rows": [
+								[
+									"Common",
+									"2"
+								],
+								[
+									"Uncommon",
+									"5"
+								],
+								[
+									"Rare",
+									"6"
+								],
+								[
+									"Very Rare",
+									"7"
+								],
+								[
+									"Legendary",
+									"8"
+								]
+							]
+						}
+					]
+				},
+				{
+					"name": "Complications",
+					"entries": [
+						"Complications usually arise when you gain the Status Quo effect on the crafting check. Roll on the table below to see what effects happen.",
+						{
+							"type": "table",
+							"caption": "Crafting Complications",
+							"colLabels": [
+								"{@dice d10}",
+								"Result"
+							],
+							"colStyles": [
+								"col-2 text-center",
+								"col-10"
+							],
+							"rows": [
+								[
+									"1",
+									"You must start over, causing you to lose all current {@i progress}."
+								],
+								[
+									"2-3",
+									"You must pay half the cost of crafting the item in gold or resources that day, having failed or wanting to redo a certain part."
+								],
+								[
+									"4-6",
+									"You must pay quarter of the cost of crafting the item in gold or resources that day, trying various ways to craft the item."
+								],
+								[
+									"7-10",
+									"Nothing happens."
+								]
+							]
+						}
+					],
+					"type": "entries"
+				}
+			]
+		}
+	],
+	"feat": [
+		{
+			"name": "Infernal Attunement",
+			"source": "CONowa",
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"con",
+							"cha"
+						],
+						"amount": 1
+					}
+				}
+			],
+			"prerequisite": [
+				{
+					"race": [
+						{
+							"name": "tiefling"
+						}
+					]
+				}
+			],
+			"entries": [
+				"Attuning more into your infernal heritage, you evolve into a form capable of doing great things. With that, you gain the benefits as listed below:",
+				{
+					"type": "list",
+					"items": [
+						"Choose one of the following:",
+						{
+							"type": "list",
+							"items": [
+								"Your body grows new tools at your disposal, similar to the fiend you are related to. You gain a new natural weapon, which deals {@damage 1d6} + your Strength modifier slashing, piercing or bludgeoning damage, as appropriate for the appendage(s) created or upgraded by this feat. In case of gaining new limbs, you can make them appear and dissapear as a bonus action.",
+								"Your connection to the depths of hell grows stronger. Pick a 2nd-level spell from the Warlock spell list. You can cast this spell once per long rest.",
+								"You can manifest your rage as a beam of brimstone darkness. When you take the {@action Attack} action, you can replace one of your attacks with shooting a beam of brimstone out of your mouth. The laser is a 5 feet wide, 30-foot line that damages anyone and anything in its path. Each creature in the area must make a Dexterity saving throw against a DC equal to 8 + your Constitution modifier + your proficiency bonus. A creature takes {@dice 2d6} radiant damage on a failed save, or half that on a success."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Infernal Wings",
+			"source": "CONowa",
+			"prerequisite": [
+				{
+					"race": [
+						{
+							"name": "tiefling"
+						}
+					]
+				}
+			],
+			"ability": [
+				{
+					"str": 1
+				}
+			],
+			"entries": [
+				"Your infernal heritage owns wings, and now whether suddenly, through arcane experimentation, or drinking fiendish blood, you have them too.",
+				{
+					"type": "list",
+					"items": [
+						"You grow bat wings from your back, those giving you a flight speed of 30 feet. You can make them appear and dissapear as a bonus action."
+					]
+				}
+			]
+		}
+	],
+	"subclass": [
+		{
+			"name": "Time Domain",
+			"source": "CONowa",
+			"shortName": "Time",
+			"subclassFeatures": [
+				"Time Domain|Cleric||Time|CONowa|1",
+				"Time Alter: Delayment|Cleric||Time|CONowa|2",
+				"Time Alter: Rollback|Cleric||Time|CONowa|6",
+				"Empowered Strike|Cleric||Time|CONowa|8",
+				"Time Alter: Elongate|Cleric||Time|CONowa|17",
+				"Time Alter: Predict|Cleric||Time|CONowa|17"
+			],
+			"additionalSpells": [
+				{
+					"prepared": {
+						"1": [
+							"feather fall",
+							"gift of alacrity|egw"
+						],
+						"3": [
+							"misty step",
+							"gentle repose"
+						],
+						"5": [
+							"haste",
+							"slow"
+						],
+						"7": [
+							"death ward",
+							"banishment"
+						],
+						"9": [
+							"far step|xge",
+							"temporal shunt|egw"
+						]
+					}
+				}
+			],
+			"className": "Cleric",
+			"classSource": "PHB"
+		}
+	],
+	"subclassFeature": [
+		{
+			"name": "Time Domain",
+			"source": "CONowa",
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Time",
+			"subclassSource": "CONowa",
+			"level": 1,
+			"entries": [
+				"Deities that can influence the flow of time are few and far between in the Forgotten Realms, as 'time' is a great, universal constant that mortals can only begin to grasp. Clerics that worship a such a deity can, if only for a brief instant, channel their divine powers to stop their enemies in stasis and grant their allies an amazing alacrity.",
+				"At each indicated cleric level, add the listed spells to your spells prepared. They do not count towards your limit.",
+				{
+					"type": "table",
+					"caption": "Time Domain Spells",
+					"colLabels": [
+						"Cleric Level",
+						"Spells"
+					],
+					"colStyles": [
+						"col-3 text-center",
+						"col-9"
+					],
+					"rows": [
+						[
+							"1st",
+							"{@spell feather fall}, {@spell gift of alacrity|egw}"
+						],
+						[
+							"3rd",
+							"{@spell misty step}, {@spell gentle repose}"
+						],
+						[
+							"5th",
+							"{@spell haste}, {@spell slow}"
+						],
+						[
+							"7th",
+							"{@spell death ward}, {@spell banishment}"
+						],
+						[
+							"9th",
+							"{@spell far step|xge}, {@spell temporal shunt|egw}"
+						]
+					]
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Bonus Proficiencies|Cleric||Time|CONowa|1"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Glimpse of the Future|Cleric||Time|CONowa|1"
+				}
+			]
+		},
+		{
+			"name": "Bonus Proficiencies",
+			"source": "CONowa",
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Time",
+			"subclassSource": "CONowa",
+			"level": 1,
+			"entries": [
+				"At 1st level, you gain proficiency with martial weapons."
+			]
+		},
+		{
+			"name": "Glimpse of the Future",
+			"source": "CONowa",
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Time",
+			"subclassSource": "CONowa",
+			"level": 1,
+			"entries": [
+				"From 1st level, your prayer gives you a glimpse of the future, allowing you to forsee certain events. You cannot be surprised as long as you are conscious, and you add your Wisdom modifier to your initiative rolls."
+			]
+		},
+		{
+			"name": "Time Alter: Delayment",
+			"source": "CONowa",
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Time",
+			"subclassSource": "CONowa",
+			"level": 2,
+			"entries": [
+				"Starting at 2nd level, you can use your Channel Divinity to delay the actions of others.",
+				"As a reaction to a creature taking an action or bonus action within 15 feet of you, you can cause that action to happen at the end of your next turn or until your concentration ends (as if you were concentrating on a spell)."
+			]
+		},
+		{
+			"name": "Time Alter: Rollback",
+			"source": "CONowa",
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Time",
+			"subclassSource": "CONowa",
+			"level": 6,
+			"entries": [
+				"Starting at 6th level, you can expend a use of your Channel Divinity to bring back a part of your power. As a bonus action, you touch your holy symbol, utter a prayer, and regain a spell slot you expended on this turn. The spell slot regained cannot be higher than a 5th-level spell slot."
+			]
+		},
+		{
+			"name": "Empowered Strike",
+			"source": "CONowa",
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Time",
+			"subclassSource": "CONowa",
+			"level": 8,
+			"entries": [
+				"At 8th level, you gain the ability to infuse your weapon strikes with divine energy. Once on each of your turns when you hit a creature with a weapon attack, you can cause the attack to deal an extra {@dice 1d8} radiant damage to the target. When you reach 14th level, the extra damage increases to {@dice 2d8}."
+			]
+		},
+		{
+			"name": "Time Alter: Elongate",
+			"source": "CONowa",
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Time",
+			"subclassSource": "CONowa",
+			"level": 17,
+			"entries": [
+				"At 17th level, you are gifted with the power to become a constant in time. As an action, you can cause a loop in time that constantly rewinds your body's metabolism and aging.",
+				"Ending the effect can be done with an action, however, the flow of time corrects itself immediately, and any time that passed during the rewind hits you at once. While the effect is active, you gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"You do not need to eat, drink or breathe.",
+						"You don't need to sleep.",
+						"You do not age, and can't be aged magically."
+					]
+				}
+			]
+		},
+		{
+			"name": "Time Alter: Predict",
+			"source": "CONowa",
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Time",
+			"subclassSource": "CONowa",
+			"level": 17,
+			"entries": [
+				"Also at 17th level, you can cast the {@spell Foresight} spell once per long rest."
+			]
+		}
+	],
+	"race": [
+		{
+			"name": "Dwarf (Road)",
+			"source": "CONowa",
+			"size": [
+				"M"
+			],
+			"speed": 35,
+			"ability": [
+				{
+					"dex": 1,
+					"cha": 1
+				}
+			],
+			"darkvision": 60,
+			"traitTags": [
+				"Skill Proficiency",
+				"Tool Proficiency",
+				"Weapon Proficiency"
+			],
+			"languageProficiencies": [
+				{
+					"common": true,
+					"dwarvish": true
+				}
+			],
+			"soundClip": {
+				"type": "internal",
+				"path": "races/dwarf.mp3"
+			},
+			"entries": [
+				{
+					"name": "Age",
+					"type": "entries",
+					"entries": [
+						"Dwarves mature at the same rate as humans, but they're considered young until they reach the age of 50. On average, they live about 350 years."
+					]
+				},
+				{
+					"name": "Alignment",
+					"type": "entries",
+					"entries": [
+						"Most dwarves are lawful, believing firmly in the benefits of a well-ordered society. They tend toward good as well, with a strong sense of fair play and a belief that everyone deserves to share in the benefits of a just order."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"Dwarves stand between 4 and 5 feet tall and average about 150 pounds. Your size is Medium."
+					]
+				},
+				{
+					"name": "Traveler's Step",
+					"entries": [
+						"Your base walking speed is 35 ft., however wearing heavy armor will reduce your speed to 25 ft."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Darkvision",
+					"entries": [
+						"Accustomed to life underground, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Dwarven Resilience",
+					"entries": [
+						"You have advantage on saving throws against poison, and you have resistance against poison damage."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Dwarven Combat Training",
+					"entries": [
+						"You have proficiency with the {@item battleaxe|phb}, {@item handaxe|phb}, {@item light hammer|phb}, and {@item warhammer|phb}."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Trade Proficiency",
+					"entries": [
+						"You gain proficiency with the artisan's tools of your choice: {@item Cartographer's Tools|phb}, Land Vehicles, or {@item Painter's Supplies|phb}."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Expert Cunning (The Art of Bullshittery)",
+					"entries": [
+						"You gain proficiency in {@skill Persuasion}, {@skill Performance}, or {@skill Deception}"
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Languages",
+					"entries": [
+						"You can speak, read, and write Common and Dwarvish. Dwarvish is full of hard consonants and guttural sounds, and those characteristics spill over into whatever other language a dwarf might speak."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Well Travelled",
+					"entries": [
+						"You gain an additional language proficiency of your choice."
+					],
+					"type": "entries"
+				}
+			],
+			"heightAndWeight": {
+				"baseHeight": 44,
+				"heightMod": "2d4",
+				"baseWeight": 115,
+				"weightMod": "2d6"
+			},
+			"fluff": {
+				"name": "Road Dwarves",
+				"source": "VauxsDiscordHomebrewExtravaganza",
+				"entries": [
+					{
+						"type": "section",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									{
+										"type": "entries",
+										"name": "A Society of Backpackers",
+										"entries": [
+											"Travelers, merchants, and storytellers there are many professions a dwarf may pick up when they leave the underground and choose to live life above it all. Road dwarves have abandoned the smithing and stonecutting techniques of their subterran bretheren but make up for it in skills that help their new trades."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Above Ground Dwarven Culture",
+										"entries": [
+											"Dwarven Culture is almost always tied to heritage, whose house is in control of what branch of dwarven society. Living in mountains and beneath the earth is almost second nature to dwarves, so where do road dwarves fit into this? Road dwarves are the revels, the rogues, people who wanted to see more of the world and move away from the deadlocked ideals of tradition. Road dwarves literally take to the road, finding their way along the path as travelers. Many take the chance to become merchants seeking fortune, others begin caravan companies, and even more become wanderlust adventurers."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Oh To Be a Road Dwarf",
+										"entries": [
+											"Spotting a dwarf without armor above ground means you have most likely run into a road dwarf, they have long since abandoned smithing as a profession (though some may choose to relearn) and mostly prefer lighter clothing and weaponry to accomodate their vagabond lifestyles. Their time travelling have put a much lighter step in their heels and thus road dwarves whether on cart, mount, or foot seem to move about much more quickly and frequently than the average dwarf. Being more open to new things means it's not uncommon to spot a road dwarf bard recounting their adventures in a tavern or a master marksman and their trusty heavy crossbow."
+										]
+									}
+								]
+							}
+						]
+					},
+					{
+						"type": "section",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									"Kingdoms rich in ancient grandeur, halls carved into the roots of mountains, the echoing of picks and hammers in deep mines and blazing forges, a commitment to clan and tradition, and a burning hatred of goblins and orcs-these common threads unite all dwarves.",
+									{
+										"type": "entries",
+										"name": "Short and Stout",
+										"entries": [
+											"Bold and hardy, dwarves are known as skilled warriors, miners, and workers of stone and metal. Though they stand well under 5 feet tall, dwarves are so broad and compact that they can weigh as much as a human standing nearly two feet taller. Their courage and endurance are also easily a match for any of the larger folk.",
+											"Dwarven skin ranges from deep brown to a paler hue tinged with red, but the most common shades are light brown or deep tan, like certain tones of earth.",
+											"Their hair, worn long but in simple styles, is usually black, gray, or brown, though paler dwarves often have red hair. Male dwarves value their beards highly and groom them carefully."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Long Memory, Long Grudges",
+										"entries": [
+											"Dwarves can live to be more than 400 years old, so the oldest living dwarves often remember a very different world. For example, some of the oldest dwarves living in Citadel Felbarr (in the world of the Forgotten Realms) can recall the day, more than three centuries ago, when orcs conquered the fortress and drove them into an exile that lasted over 250 years. This longevity grants them a perspective on the world that shorter-lived races such as humans and halflings lack.",
+											"Dwarves are solid and enduring like the mountains they love, weathering the passage of centuries with stoic endurance and little change. They respect the traditions of their clans, tracing their ancestry back to the founding of their most ancient strongholds in the youth of the world, and don't abandon those traditions lightly. Part of those traditions is devotion to the gods of the dwarves, who uphold the dwarven ideals of industrious labor, skill in battle, and devotion to the forge.",
+											"Individual dwarves are determined and loyal, true to their word and decisive in action, sometimes to the point of stubbornness. Many dwarves have a strong sense of justice, and they are slow to forget wrongs they have suffered. A wrong done to one dwarf is a wrong done to the dwarf's entire clan, so what begins as one dwarf's hunt for vengeance can become a full-blown clan feud."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Clans and Kingdoms",
+										"entries": [
+											"Dwarven kingdoms stretch deep beneath the mountains where the dwarves mine gems and precious metals and forge items of wonder. They love the beauty and artistry of precious metals and fine jewelry, and in some dwarves this love festers into avarice. Whatever wealth they can't find in their mountains, they gain through trade. They dislike boats, so enterprising humans and halflings frequently handle trade in dwarven goods along water routes. Trustworthy members of other races are welcome in dwarf settlements, though some areas are off limits even to them.",
+											"The chief unit of dwarven society is the clan, and dwarves highly value social standing. Even dwarves who live far from their own kingdoms cherish their clan identities and affiliations, recognize related dwarves, and invoke their ancestors' names in oaths and curses. To be clanless is the worst fate that can befall a dwarf.",
+											"Dwarves in other lands are typically artisans, especially weaponsmiths, armorers, and jewelers. Some become mercenaries or bodyguards, highly sought after for their courage and loyalty."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Gods, Gold, and Clan",
+										"entries": [
+											"Dwarves who take up the adventuring life might be motivated by a desire for treasure-for its own sake, for a specific purpose, or even out of an altruistic desire to help others. Other dwarves are driven by the command or inspiration of a deity, a direct calling or simply a desire to bring glory to one of the dwarf gods. Clan and ancestry are also important motivators. A dwarf might seek to restore a clan's lost honor, avenge an ancient wrong the clan suffered, or earn a new place within the clan after having been exiled. Or a dwarf might search for the axe wielded by a mighty ancestor, lost on the field of battle centuries ago."
+										]
+									},
+									{
+										"type": "inset",
+										"name": "Slow to Trust",
+										"entries": [
+											"Dwarves get along passably well with most other races. \"The difference between an acquaintance and a friend is about a hundred years,\" is a dwarf saying that might be hyperbole, but certainly points to how difficult it can be for a member of a short-lived race like humans to earn a dwarf's trust.",
+											{
+												"type": "entries",
+												"name": "Elves",
+												"entries": [
+													"\"It's not wise to depend on the elves. No telling what an elf will do next; when the hammer meets the orc's head, they're as apt to start singing as to pull out a sword. They're flighty and frivolous. Two things to be said for them, though: They don't have many smiths, but the ones they have do very fine work. And when orcs or goblins come streaming down out of the mountains, an elf's good to have at your back. Not as good as a dwarf, maybe, but no doubt they hate the orcs as much as we do.\""
+												]
+											},
+											{
+												"type": "entries",
+												"name": "Halflings",
+												"entries": [
+													"\"Sure, they're pleasant folk. But show me a halfling hero. An empire, a triumphant army. Even a treasure for the ages made by halfling hands. Nothing. How can you take them seriously?\""
+												]
+											},
+											{
+												"type": "entries",
+												"name": "Humans",
+												"entries": [
+													"\"You take the time to get to know a human, and by then the human's on her deathbed. If you're lucky, she's got kin-a daughter or granddaughter, maybe-who's got hands and heart as good as hers. That's when you can make a human friend. And watch them go!. They set their hearts on something, they'll get it whether it's a dragon's hoard or an empire's throne. You have to admire that kind of dedication, even if it gets them in trouble more often than not.\""
+												]
+											}
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Dwarf Names",
+										"entries": [
+											"A dwarf's name is granted by a clan elder, in accordance with tradition. Every proper dwarven name has been used and reused down through the generations. A dwarf's name belongs to the clan, not to the individual.",
+											"A dwarf who misuses or brings shame to a clan name is stripped of the name and forbidden by law to use any dwarven name in its place.",
+											{
+												"type": "list",
+												"style": "list-hang-notitle",
+												"items": [
+													{
+														"type": "item",
+														"name": "Male Names:",
+														"entry": "Adrik, Alberich, Baern, Barendd, Brottor, Bruenor, Dain, Darrak, Delg, Eberk, Einkil, Fargrim, Flint, Gardain, Harbek, Kildrak, Morgran, Orsik, Oskar, Rangrim, Rurik, Taklinn, Thoradin, Thorin, Tordek, Traubon, Travok, Ulfgar, Veit, Vondal"
+													},
+													{
+														"type": "item",
+														"name": "Female Names:",
+														"entry": "Amber, Artin, Audhild, Bardryn, Dagnal, Diesa, Eldeth, Falkrunn, Finellen, Gunnloda, Gurdis, Helja, Hlin, Kathra, Kristryd, Ilde, Liftrasa, Mardred, Riswynn, Sannl, Torbera, Torgga, Vistra"
+													},
+													{
+														"type": "item",
+														"name": "Clan Names",
+														"entry": "Balderk, Battlehammer, Brawnanvil, Dankil, Fireforge, Frostbeard, Gorunn, Holderhek, Ironfist, Loderr, Lutgehr, Rumnaheim, Strakeln, Torunn, Ungart"
+													}
+												]
+											}
+										]
+									},
+									{
+										"type": "inset",
+										"name": "Duergar",
+										"entries": [
+											"In cities deep in the Underdark live the duergar, or gray dwarves. These vicious, stealthy slave traders raid the surface world for captives, then sell their prey to the other races of the Underdark. They have innate magical abilities to become invisible and to temporarily grow to giant size."
+										]
+									}
+								]
+							}
+						]
+					}
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/CONowa/5BKljB7.png"
+						}
+					}
+				]
+			},
+			"resist": [
+				"poison"
+			],
+			"age": {
+				"mature": 20,
+				"max": 350
+			}
+		}
+	],
+	"spell": [
+		{
+			"name": "Embrace the Pit",
+			"level": 3,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					}
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					}
+				]
+			},
+			"entries": [
+				"You call upon and embrace the pits of hell to grant you otherworldly strength, taking on the features of a hellish being closest to your bloodline. You gain the following benefits until the spell ends:",
+				{
+					"type": "list",
+					"items": [
+						"You are resistant to fire, as well as your choice of either piercing, slashing, or bludgeoning damage.",
+						"You have devil's sight, able to see through both common and magical darkness to a range of 60 feet.",
+						"You are immune to poison damage and the {@condition poisoned} condition."
+					]
+				}
+			],
+			"source": "CONowa",
+			"components": {
+				"v": true
+			},
+			"savingThrow": [
+				"strength"
+			],
+			"areaTags": [
+				"ST"
+			],
+			"miscTags": [
+				"MAC"
+			]
+		},
+		{
+			"name": "Witch Bolt",
+			"source": "CONowa",
+			"level": 2,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"You temporaliy infuse yourself with the ability to release beams of crackling, blue energy. As an action, you can lance this energy out toward a creature within range, forming a sustained arc of lightning between you and the target. Make a ranged spell attack against that creature. On a hit, the target takes {@damage 1d12} lightning damage, and is bonded with you. You can be bonded to only one target at a time. If you bond yourself to a new target, the first one ends.",
+				"You can use your bonus action to deal {@damage 1d12} lightning damage to the bonded target automatically as long as you have a free hand or are holding a spellcasting focus, and the bonded target is within range and it doesn't have total cover from you.",
+				"The bond ends if you use your bonus action to do anything else."
+			],
+			"entriesHigherLevel": [
+				{
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 3rd level or higher, the initial damage increases by {@scaledamage 1d12|2-9|1d12} for each slot level above 2nd."
+					],
+					"type": "entries"
+				}
+			],
+			"damageInflict": [
+				"lightning"
+			],
+			"spellAttack": [
+				"R"
+			],
+			"areaTags": [
+				"ST"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					},
+					{
+						"name": "Artificer",
+						"source": "TCE"
+					}
+				]
+			},
+			"miscTags": [
+				"UBA"
+			]
+		}
+	],
+	"item": [
+		{
+			"name": "Goggles of Object Reading",
+			"source": "CONowa",
+			"rarity": "uncommon",
+			"reqAttune": true,
+			"wondrous": true,
+			"entries": [
+				"These leather-framed goggles feature purple crystal lenses. While wearing the goggles, you can see magic as of the {@spell detect magic|phb} spell and have advantage on Intelligence checks made to reveal information about a creature or object you can see.",
+				"In addition, you can cast the {@spell identify} spell using the googles. Once you do so, you can't do so again until the next dawn."
+			],
+			"attachedSpells": [
+				"identify",
+				"detect magic"
+			]
+		},
+		{
+			"name": "Shaped Glass",
+			"source": "CONowa",
+			"baseItem": "mace|PHB",
+			"type": "M",
+			"rarity": "artifact",
+			"reqAttune": true,
+			"weight": 4,
+			"weaponCategory": "simple",
+			"dmg1": "1d6",
+			"dmgType": "B",
+			"bonusWeapon": "+1",
+			"entries": [
+				"This mace is made purely of some strange crystalline material, showing all signs of unusual behavior when left alone.",
+				{
+					"type": "entries",
+					"name": "Special Properties",
+					"entries": [
+						"This mace of magic exhibits all kinds of unusual behavior, and might function sporadically or with unpredictable side effects, as determined by the DM.",
+						"The item also exhibits some passive unusual behavior, such as:",
+						{
+							"type": "list",
+							"items": [
+								"When dropped, the mace floats instead of falling to the ground.",
+								"The item sheds light out of it's stored magic, creating bright light in a 15-foot radius and dim light for an additional 15 feet.",
+								"The mace strongly interacts with anti-magic fields, dispelling them in an explosive fashion when touched."
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Dormant",
+					"entries": [
+						"The Shaped Glass grants the following benefits in its dormant state:",
+						{
+							"type": "list",
+							"items": [
+								"You gain a +1 bonus to attack and damage rolls made with this magic weapon.",
+								"You can cause the mace to overwhelm you with it's weave on your turn, gaining an additional action. Roll a {@dice d4}. On a result of 1 to 3, you start your next turn {@condition stunned}. This property can't be used again until dawn.",
+								"Once per turn, when you hit an attack with the mace, you can make it deal double damage. After dealing damage to the creature, you take double damage until the start of your next turn."
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Awakened",
+					"entries": [
+						"As the Shaped Glass awakens, it grants the following benefits:",
+						{
+							"type": "list",
+							"items": [
+								"You gain +2 bonus to attack and damage rolls made with this magic weapon.",
+								"When rolling the {@dice d4} after gaining an additional action from this item, you only become {@condition stunned} on a roll of 1 to 2.",
+								"During a short or long rest, you can reform Shaped Glass as a part of another weapon that deals piercing or slashing damage. After this, the weapon becomes magical and gains the properties of Shaped Glass, becoming one with the item.",
+								"Also, when trying to lose attunement to Shaped Glass, the user must make a DC 20 Charisma save to successfully remove the item from their consciousness. On a failed save, they are knocked {@condition unconscious}."
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Exalted",
+					"entries": [
+						"Shaped Glass is at its peak, becoming true with its nature and granting you the following benefits in its exalted state:",
+						{
+							"type": "list",
+							"items": [
+								"You gain +3 bonus to attack and damage rolls made with this magic weapon.",
+								"When rolling the {@dice d4} after gaining an additional action from this item, you only become {@condition stunned} on a roll of 1.",
+								"You are now pernamently attuned to the Glass Shard, only to be separated from it through divine intervention."
+							]
+						}
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					"Pairings -",
+					"Unstructured glass, from the heart of the [Moon]. Sung out, in ethereal wisps, over the course of 3 cycles. Pause.",
+					"We fold time into its material - twice. Our time and his. A cost he was willing us to pay. Folded and shaped, with a god's designs.",
+					"He wields it, in one of many great hands. The time we injected is unfolded in his grasp. Outputs quicken - muscles compress twice. Twice as many intentions. Twice the ordered complexities, folded upon themselves. Loops loop back onto [?] in pairs. Time dependent functions. Pause.",
+					"He sunders a construct into a thousand pieces.",
+					"But time is fair. Microtears begin to uncoil in pairs. Muscles begin to snap, twice as fast.  The cost of folded time. But he has plenty of time."
+				]
+			}
+		}
+	]
+}

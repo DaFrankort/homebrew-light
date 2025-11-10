@@ -1,0 +1,62 @@
+name: UPDATE
+
+on:
+    push:
+        branches: [main]
+    pull_request:
+        branches: [main]
+    workflow_dispatch:
+
+permissions:
+  contents: write  # Need write permission to push changes
+
+jobs:
+    update:
+        runs-on: ubuntu-latest
+        name: update data
+        steps:
+            - name: Checkout repo and submodules
+              uses: actions/checkout@v4
+              with:
+                submodules: recursive
+                fetch-depth: 0
+                token: ${{ secrets.GITHUB_TOKEN }} # Explicitly pass the token
+
+            - name: Set up Python
+              uses: actions/setup-python@v4
+              with:
+                python-version: '3.11.5'
+
+            - name: Run update.py
+              run: python update.py
+
+            - name: Configure Git
+              run: |
+                git config user.name "github-actions[bot]"
+                git config user.email "github-actions[bot]@users.noreply.github.com"
+
+            - name: Push changes
+              id: push_changes
+              run: |
+                # 1. Determine the target branch name
+                if [[ "${{ github.event_name }}" == "pull_request" ]]; then
+                  # If running on a PR, get the source branch name (the branch to update)
+                  TARGET_BRANCH="${{ github.head_ref }}"
+                else
+                  # If running on push or workflow_dispatch, get the current branch name
+                  TARGET_BRANCH="${{ github.ref_name }}"
+                fi
+                
+                echo "Attempting to push changes back to branch: ${TARGET_BRANCH}"
+
+                # 2. Check if there are any changes to commit
+                if [[ -z "$(git status --porcelain)" ]]; then
+                  echo "No changes to commit."
+                  exit 0
+                fi
+
+                # 3. Commit and Push to the determined target branch
+                git add .
+                git commit -m "Update data"
+                # Push HEAD to the remote TARGET_BRANCH
+                git push origin HEAD:"${TARGET_BRANCH}"

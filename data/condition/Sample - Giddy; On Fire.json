@@ -1,0 +1,37 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "GiddyCondition",
+				"abbreviation": "Brew",
+				"full": "TheGiddyLimit",
+				"authors": [
+					"TheGiddyLimit"
+				],
+				"version": "1.0.1",
+				"url": "https://github.com/TheGiddyLimit/homebrew"
+			}
+		],
+		"edition": "classic",
+		"dateAdded": 0,
+		"dateLastModified": 1731886430,
+		"_dateLastModifiedHash": "282b1e4e39"
+	},
+	"condition": [
+		{
+			"name": "On Fire",
+			"source": "GiddyCondition",
+			"page": 451,
+			"entries": [
+				{
+					"type": "list",
+					"items": [
+						"A creature who is on fire takes {@damage 2d6} damage at the start of each of their turns.",
+						"The creature sheds bright light in a 20-foot radius and dim light for an additional 20 feet.",
+						"The effect can be ended early with the {@action Extinguish|GiddyAction} action."
+					]
+				}
+			]
+		}
+	]
+}
