@@ -18,23 +18,31 @@ jobs:
             - name: Checkout repo and submodules
               uses: actions/checkout@v4
               with:
-                  submodules: recursive
+                submodules: recursive
+                fetch-depth: 0  # needed for full history and rebasing
 
             - name: Set up Python
               uses: actions/setup-python@v4
               with:
                 python-version: '3.11.5'
 
-            - name: Copy files to /data
+            - name: Run update.py
               run: python update.py
 
             - name: Configure Git
               run: |
                 git config user.name "github-actions[bot]"
                 git config user.email "github-actions[bot]@users.noreply.github.com"
+                git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
+
+            - name: Checkout current branch
+              run: git checkout ${{ github.ref_name }}
 
             - name: Commit and push changes
               run: |
                 git add .
-                git commit -m "Update data"
-                git push
+                SUBMODULE_SHAS=$(git diff --submodule=short | grep "Subproject commit" | awk '{print $3}' | paste -sd ",")
+                git diff --quiet || git commit -m "Update data | submodules: ${SUBMODULE_SHAS}"
+                git fetch origin ${{ github.ref_name }}
+                git rebase origin/${{ github.ref_name }}
+                git push origin HEAD:${{ github.ref_name }}
