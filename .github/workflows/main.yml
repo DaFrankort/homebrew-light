@@ -1,0 +1,40 @@
+name: UPDATE
+
+on:
+    push:
+        branches: [main]
+    pull_request:
+        branches: [main]
+    workflow_dispatch:
+
+permissions:
+  contents: write  # Need write permission to push changes
+
+jobs:
+    update:
+        runs-on: ubuntu-latest
+        name: test-generate
+        steps:
+            - name: Checkout repo and submodules
+              uses: actions/checkout@v4
+              with:
+                  submodules: recursive
+
+            - name: Set up Python
+              uses: actions/setup-python@v4
+              with:
+                python-version: '3.11.5'
+
+            - name: Copy files to /data
+              run: python update.py
+
+            - name: Configure Git
+              run: |
+                git config user.name "github-actions[bot]"
+                git config user.email "github-actions[bot]@users.noreply.github.com"
+
+            - name: Commit and push changes
+              run: |
+                git add .
+                git diff --quiet && echo "No changes to commit" || git commit -m "Update submodule files"
+                git push origin HEAD:main
