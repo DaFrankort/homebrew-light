@@ -62,4 +62,4 @@ def remove_deleted(src, dst):
 if __name__ == "__main__":
     copy_files(SUBMODULE_DIR, TARGET_DIR)
     remove_deleted(SUBMODULE_DIR, TARGET_DIR)
-    print(f"Submodule files synced excluding the following folders:\n{'\n'.join(IGNORE)}")
+    print(f"Submodule files synced!")
