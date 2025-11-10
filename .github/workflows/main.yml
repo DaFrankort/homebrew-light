@@ -36,5 +36,9 @@ jobs:
             - name: Commit and push changes
               run: |
                 git add .
-                git diff --quiet && echo "No changes to commit" || git commit -m "Update submodule files"
-                git push origin HEAD:main
+                SUBMODULE_SHAS=$(git diff --submodule=short | grep "Subproject commit" | awk '{print $3}' | paste -sd ",")
+                git diff --quiet || git commit -m "Update data ${SUBMODULE_SHAS}"
+
+                git fetch origin ${{ github.ref_name }}
+                git rebase origin/${{ github.ref_name }}
+                git push origin HEAD:${{ github.ref_name }}
