@@ -13,7 +13,7 @@ permissions:
 jobs:
     update:
         runs-on: ubuntu-latest
-        name: test-generate
+        name: update data
         steps:
             - name: Checkout repo and submodules
               uses: actions/checkout@v4
