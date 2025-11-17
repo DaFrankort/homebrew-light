@@ -1,8 +1,6 @@
 name: UPDATE
 
 on:
-    push:
-        branches: [main]
     pull_request:
         branches: [main]
     workflow_dispatch:
@@ -60,3 +58,4 @@ jobs:
                 git commit -m "Update data"
                 # Push HEAD to the remote TARGET_BRANCH
                 git push origin HEAD:"${TARGET_BRANCH}"
+
