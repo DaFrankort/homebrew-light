@@ -48,8 +48,8 @@
 		],
 		"edition": "one",
 		"dateAdded": 1722887888,
-		"dateLastModified": 1761600088,
-		"_dateLastModifiedHash": "14f93d0baf"
+		"dateLastModified": 1765380646,
+		"_dateLastModifiedHash": "d176196102"
 	},
 	"subclass": [
 		{
@@ -68507,7 +68507,8 @@
 															"title": "Crooked House (Isometric)",
 															"grid": {
 																"type": "none"
-															}
+															},
+															"id": "8ed"
 														}
 													]
 												}
