@@ -48,8 +48,8 @@
 		],
 		"edition": "one",
 		"dateAdded": 1722887888,
-		"dateLastModified": 1765380646,
-		"_dateLastModifiedHash": "d176196102"
+		"dateLastModified": 1767019943,
+		"_dateLastModifiedHash": "695c057607"
 	},
 	"subclass": [
 		{
@@ -68593,7 +68593,8 @@
 													"height": 3360,
 													"id": "888",
 													"mapParent": {
-														"id": "886"
+														"id": "886",
+														"autoScale": true
 													}
 												}
 											]
@@ -69126,7 +69127,8 @@
 													"height": 3360,
 													"id": "88b",
 													"mapParent": {
-														"id": "889"
+														"id": "889",
+														"autoScale": true
 													}
 												}
 											]
@@ -69417,7 +69419,8 @@
 													"height": 3360,
 													"id": "88e",
 													"mapParent": {
-														"id": "88c"
+														"id": "88c",
+														"autoScale": true
 													}
 												}
 											]
@@ -69698,7 +69701,8 @@
 													"height": 3360,
 													"id": "891",
 													"mapParent": {
-														"id": "88f"
+														"id": "88f",
+														"autoScale": true
 													}
 												}
 											]
