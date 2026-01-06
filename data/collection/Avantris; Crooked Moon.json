@@ -64675,7 +64675,8 @@
 																	"height": 980,
 																	"id": "871",
 																	"mapParent": {
-																		"id": "870"
+																		"id": "870",
+																		"autoScale": true
 																	}
 																}
 															]
@@ -64806,7 +64807,8 @@
 																	"height": 980,
 																	"id": "873",
 																	"mapParent": {
-																		"id": "872"
+																		"id": "872",
+																		"autoScale": true
 																	}
 																}
 															]
@@ -65039,7 +65041,8 @@
 																	"height": 980,
 																	"id": "875",
 																	"mapParent": {
-																		"id": "874"
+																		"id": "874",
+																		"autoScale": true
 																	}
 																}
 															]
@@ -65138,7 +65141,8 @@
 																	"height": 980,
 																	"id": "877",
 																	"mapParent": {
-																		"id": "876"
+																		"id": "876",
+																		"autoScale": true
 																	}
 																}
 															]
@@ -65249,7 +65253,8 @@
 																	"height": 980,
 																	"id": "879",
 																	"mapParent": {
-																		"id": "878"
+																		"id": "878",
+																		"autoScale": true
 																	}
 																}
 															]
@@ -65388,7 +65393,8 @@
 																	"height": 980,
 																	"id": "87b",
 																	"mapParent": {
-																		"id": "87a"
+																		"id": "87a",
+																		"autoScale": true
 																	}
 																}
 															]
@@ -65507,7 +65513,8 @@
 																	"height": 980,
 																	"id": "87d",
 																	"mapParent": {
-																		"id": "87c"
+																		"id": "87c",
+																		"autoScale": true
 																	}
 																}
 															]
@@ -65630,7 +65637,8 @@
 																	"height": 980,
 																	"id": "87f",
 																	"mapParent": {
-																		"id": "87e"
+																		"id": "87e",
+																		"autoScale": true
 																	}
 																}
 															]
@@ -66125,7 +66133,8 @@
 													"height": 3080,
 													"id": "883",
 													"mapParent": {
-														"id": "882"
+														"id": "882",
+														"autoScale": true
 													}
 												}
 											]
@@ -70552,7 +70561,8 @@
 													"height": 2660,
 													"id": "896",
 													"mapParent": {
-														"id": "894"
+														"id": "894",
+														"autoScale": true
 													}
 												}
 											]
@@ -73712,7 +73722,8 @@
 																	"height": 2520,
 																	"id": "8a0",
 																	"mapParent": {
-																		"id": "89f"
+																		"id": "89f",
+																		"autoScale": true
 																	}
 																}
 															]
@@ -75400,7 +75411,8 @@
 																	"height": 2940,
 																	"id": "8a9",
 																	"mapParent": {
-																		"id": "8a7"
+																		"id": "8a7",
+																		"autoScale": true
 																	}
 																}
 															]
@@ -75620,7 +75632,8 @@
 																	"height": 4200,
 																	"id": "8ac",
 																	"mapParent": {
-																		"id": "8aa"
+																		"id": "8aa",
+																		"autoScale": true
 																	}
 																}
 															]
@@ -75755,7 +75768,8 @@
 																	"height": 1959,
 																	"id": "8af",
 																	"mapParent": {
-																		"id": "8ad"
+																		"id": "8ad",
+																		"autoScale": true
 																	}
 																}
 															]
@@ -75895,7 +75909,8 @@
 																	"height": 2380,
 																	"id": "8b2",
 																	"mapParent": {
-																		"id": "8b0"
+																		"id": "8b0",
+																		"autoScale": true
 																	}
 																}
 															]
@@ -76848,7 +76863,8 @@
 											"height": 5600,
 											"id": "8b5",
 											"mapParent": {
-												"id": "8b3"
+												"id": "8b3",
+												"autoScale": true
 											}
 										}
 									]
@@ -77508,7 +77524,8 @@
 											"height": 5600,
 											"id": "8b8",
 											"mapParent": {
-												"id": "8b6"
+												"id": "8b6",
+												"autoScale": true
 											}
 										}
 									]
@@ -79226,7 +79243,8 @@
 															"height": 3640,
 															"id": "8bd",
 															"mapParent": {
-																"id": "8bc"
+																"id": "8bc",
+																"autoScale": true
 															}
 														}
 													]
@@ -80046,7 +80064,8 @@
 																	"height": 3640,
 																	"id": "8bf",
 																	"mapParent": {
-																		"id": "8be"
+																		"id": "8be",
+																		"autoScale": true
 																	}
 																}
 															]
@@ -81306,7 +81325,8 @@
 																	"height": 2379,
 																	"id": "8c5",
 																	"mapParent": {
-																		"id": "8c3"
+																		"id": "8c3",
+																		"autoScale": true
 																	}
 																}
 															]
@@ -81482,7 +81502,8 @@
 															"height": 2379,
 															"id": "8c8",
 															"mapParent": {
-																"id": "8c6"
+																"id": "8c6",
+																"autoScale": true
 															}
 														}
 													]
@@ -81636,7 +81657,8 @@
 																	"height": 2379,
 																	"id": "8cb",
 																	"mapParent": {
-																		"id": "8c9"
+																		"id": "8c9",
+																		"autoScale": true
 																	}
 																}
 															]
@@ -81810,7 +81832,8 @@
 																	"height": 2379,
 																	"id": "8ce",
 																	"mapParent": {
-																		"id": "8cc"
+																		"id": "8cc",
+																		"autoScale": true
 																	}
 																}
 															]
@@ -81969,7 +81992,8 @@
 															"height": 2379,
 															"id": "8d1",
 															"mapParent": {
-																"id": "8cf"
+																"id": "8cf",
+																"autoScale": true
 															}
 														}
 													]
@@ -85302,7 +85326,8 @@
 																	"height": 2240,
 																	"id": "8dd",
 																	"mapParent": {
-																		"id": "8dc"
+																		"id": "8dc",
+																		"autoScale": true
 																	}
 																}
 															]
@@ -85528,7 +85553,8 @@
 																	"height": 3220,
 																	"id": "8df",
 																	"mapParent": {
-																		"id": "8de"
+																		"id": "8de",
+																		"autoScale": true
 																	}
 																}
 															]
@@ -85765,7 +85791,8 @@
 																	"height": 3780,
 																	"id": "8e1",
 																	"mapParent": {
-																		"id": "8e0"
+																		"id": "8e0",
+																		"autoScale": true
 																	}
 																}
 															]
@@ -86276,7 +86303,8 @@
 													"height": 2380,
 													"id": "8e4",
 													"mapParent": {
-														"id": "8e3"
+														"id": "8e3",
+														"autoScale": true
 													}
 												}
 											]
@@ -86472,7 +86500,8 @@
 													"height": 3360,
 													"id": "8e6",
 													"mapParent": {
-														"id": "8e5"
+														"id": "8e5",
+														"autoScale": true
 													}
 												}
 											]
