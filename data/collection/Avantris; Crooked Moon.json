@@ -48,8 +48,8 @@
 		],
 		"edition": "one",
 		"dateAdded": 1722887888,
-		"dateLastModified": 1774499360,
-		"_dateLastModifiedHash": "25982cdef9"
+		"dateLastModified": 1772404109,
+		"_dateLastModifiedHash": "52bd5af8e3"
 	},
 	"subclass": [
 		{
@@ -4247,7 +4247,7 @@
 			"level": 6,
 			"header": 2,
 			"entries": [
-				"As a bonus action, you can expend your {@subclassFeature Blood Well|Sorcerer|PHB|Crimson|CrookedMoon14|3|CrookedMoon14} to magically dissolve into a pool of blood, along with everything you're wearing or carrying, for 1 hour. The transformation ends early if you drop to 0 hit points or if you choose to end it (no action required).",
+				"As a bonus action, you can expend your {@subclassFeature Blood Well|Sorcerer|PHB|Crimson|CrookedMoon14|3|CrookedMoon14}  to magically dissolve into a pool of blood, along with everything you're wearing or carrying, for 1 hour. The transformation ends early if you drop to 0 hit points or if you choose to end it (no action required).",
 				"While you are a pool of blood, you use your game statistics with the following changes.",
 				{
 					"type": "list",
@@ -8527,7 +8527,7 @@
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"You have learned the fundamental process of dissolution. You know the {@spell Dissolution|CrookedMoon24} cantrip. A creature or object you reduce to 0 {@variantrule Hit Points|XPHB} with the cantrip is destroyed. If the target was Small or larger, it dissolves into a measure (1 ounce) of crystalline powder called Quintessence. You can have a maximum amount of Quintessence equal to twice your Intelligence modifier at one time (mimium of 2 measures). If you create more, the oldest measure vanishes. You can use Quintessence you are touching in the following ways.",
+				"You have learned the fundamental process of dissolution. You know the {@spell Dissolution|CrookedMoon24} cantrip. A creature or object you reduce to 0 {@variantrule Hit Points|XPHB} with the cantrip is destroyed. If the target was Small or larger, it dissolves into a measure (1 ounce) of crystalline powder called Quintessence. You can have a maximum amount of Quintessence equal to twice your Intelligence modifier  at one time (mimium of 2 measures). If you create more, the oldest measure vanishes. You can use Quintessence you are touching in the following ways.",
 				{
 					"type": "entries",
 					"name": "Material Component",
@@ -16582,7 +16582,7 @@
 					"type": "entries",
 					"name": "Silken Legacy",
 					"entries": [
-						"You know the {@spell Thaumaturgy} cantrip. Starting at 3rd level, you can cast the {@spell Find Familiar} spell (the familiar takes the form of a jeweled insect or arachnid) using this trait, and starting at 5th level, you can cast the {@spell Web} spell using this trait, both without material components. Once you cast {@spell Find Familiar} or Web with this trait, you can't cast that spell with it again until you finish a long rest. You can also cast either spell using any spell slots you have of the appropriate level.",
+						"You know the {@spell Thaumaturgy} cantrip. Starting at 3rd level, you can cast the {@spell Find Familiar} spell (the familiar takes the form of a jeweled insect or arachnid) using this trait, and starting at 5th level, you can cast the {@spell Web}  spell using this trait, both without material components. Once you cast {@spell Find Familiar} or Web  with this trait, you can't cast that spell with it again until you finish a long rest. You can also cast either spell using any spell slots you have of the appropriate level.",
 						"Intelligence, Wisdom, or Charisma is your spellcasting ability for the spells you cast with this trait (choose the ability when you select this species)."
 					]
 				},
@@ -17904,7 +17904,7 @@
 			"name": "Azureborn",
 			"source": "CrookedMoon14",
 			"entries": [
-				"Azureborn ({@i A\u2011zher\u2011born}) are a harpy-like species native to {@book Astramar|CrookedMoon|1|Astramar}, often materializing from the bright blue night sky filled with twinkling stars and winds of arcane power. Bearing a connection to the aither that courses through the air and land of the province, they are an inherently prescient folk that can divine the future by looking to the cosmos. They have built a society of magical wonder through grand vision, endless curiosity, and dedication to study.",
+				"Azureborn ({@i A\u2011zher\u2011born}) are a harpy-like species native to {@book Astramar|CrookedMoon|1|Astramar}, often materializing from  the bright blue night sky filled with twinkling stars  and winds of arcane power. Bearing a connection to  the aither that courses through the air and land of the province, they are an inherently prescient folk that can divine the future by looking to the cosmos. They have built a society of magical wonder through grand vision, endless curiosity, and dedication to study.",
 				"Sprouting feathers across their entire body and wings attached to each of their arms, this diverse folk can resemble all manner of avian creatures, from raptors with earthy tones to tropical birds of vibrant and colorful plumage. They typically live 100 years, although many of the wisest among them have lived up to 400."
 			],
 			"images": [
@@ -17924,7 +17924,7 @@
 			"name": "Azureborn",
 			"source": "CrookedMoon24",
 			"entries": [
-				"Azureborn ({@i A\u2011zher\u2011born}) are a harpy-like species native to {@book Astramar|CrookedMoon|1|Astramar}, often materializing from the bright blue night sky filled with twinkling stars and winds of arcane power. Bearing a connection to the aither that courses through the air and land of the province, they are an inherently prescient folk that can divine the future by looking to the cosmos. They have built a society of magical wonder through grand vision, endless curiosity, and dedication to study.",
+				"Azureborn ({@i A\u2011zher\u2011born}) are a harpy-like species native to {@book Astramar|CrookedMoon|1|Astramar}, often materializing from  the bright blue night sky filled with twinkling stars  and winds of arcane power. Bearing a connection to  the aither that courses through the air and land of the province, they are an inherently prescient folk that can divine the future by looking to the cosmos. They have built a society of magical wonder through grand vision, endless curiosity, and dedication to study.",
 				"Sprouting feathers across their entire body and wings attached to each of their arms, this diverse folk can resemble all manner of avian creatures, from raptors with earthy tones to tropical birds of vibrant and colorful plumage. They typically live 100 years, although many of the wisest among them have lived up to 400."
 			],
 			"images": [
@@ -24340,7 +24340,7 @@
 				}
 			],
 			"entries": [
-				"You summon a thin mist that saps joy and vigor in a 20-foot-radius {@variantrule Sphere [Area of Effect]|XPHB|Sphere} centered on a point within range. Each creature in the mist when it appears, or when it moves into the mist for the first time on a turn or ends its turn there, must succeed on a Charisma saving throw or be filled with deep melancholy until the end of its next turn. An affected creature's {@variantrule Speed|XPHB} is halved, it has {@variantrule Disadvantage|XPHB} on attack rolls, and it subtracts {@dice 1d8} from all its damage rolls."
+				"You summon a thin mist that saps joy and vigor in a  20-foot-radius {@variantrule Sphere [Area of Effect]|XPHB|Sphere} centered on a point within range. Each creature in the mist when it appears, or when it moves into the mist for the first time on a turn or ends its turn there, must succeed on a Charisma saving throw or be filled with deep melancholy until the end of its next turn. An affected creature's {@variantrule Speed|XPHB} is halved, it has {@variantrule Disadvantage|XPHB} on attack rolls, and it subtracts {@dice 1d8} from all its damage rolls."
 			],
 			"classes": {
 				"fromClassList": [
@@ -25187,7 +25187,7 @@
 				}
 			],
 			"entries": [
-				"You create a 20-foot-radius {@variantrule Sphere [Area of Effect]|XPHB|Sphere} of faint, shimmering light centered on a point within range. You and a number of creatures of your choice up to your spellcasting ability modifier (minimum of 1 other creature) can absorb protective magic from the {@variantrule Sphere [Area of Effect]|XPHB|Sphere}. When any of the chosen creatures finish a {@variantrule Long Rest|XPHB} in the area, the {@variantrule Sphere [Area of Effect]|XPHB|Sphere} vanishes, and those creatures gain a +1 bonus to AC for the remainder of the duration. Chosen creatures who don't finish a {@variantrule Long Rest|XPHB} in the {@variantrule Sphere [Area of Effect]|XPHB|Sphere} gain no benefit."
+				"You create a 20-foot-radius {@variantrule Sphere [Area of Effect]|XPHB|Sphere} of faint, shimmering light centered on a point within range. You and  a number of creatures of your choice up to your spellcasting ability modifier (minimum of 1 other creature) can absorb protective magic from the {@variantrule Sphere [Area of Effect]|XPHB|Sphere}. When any of the chosen creatures finish a {@variantrule Long Rest|XPHB} in the area, the {@variantrule Sphere [Area of Effect]|XPHB|Sphere} vanishes, and those creatures gain a +1 bonus to AC for the remainder of the duration. Chosen creatures who don't finish a {@variantrule Long Rest|XPHB} in the {@variantrule Sphere [Area of Effect]|XPHB|Sphere} gain no benefit."
 			],
 			"classes": {
 				"fromClassList": [
@@ -25330,7 +25330,7 @@
 				}
 			],
 			"entries": [
-				"You draw knowledge through the power of blood about a creature you can see within range. You learn the target's species and creature type, its current {@variantrule Hit Points|XPHB}, and any conditions affecting it. You also learn if it has any of the following, and, if so, what they are: {@variantrule Vulnerability|XPHB}, {@variantrule Resistance|XPHB}, or {@variantrule Immunity|XPHB} to damage or conditions. Additionally, the next ability check or attack roll you make against the target before the end of your next turn has {@variantrule Advantage|XPHB}."
+				"You draw knowledge through the power of blood about a creature you can see within range. You learn the target's species and creature type, its current {@variantrule Hit Points|XPHB}, and any conditions affecting it. You also learn if it has any of the following, and, if so, what they are: {@variantrule Vulnerability|XPHB}, {@variantrule Resistance|XPHB}, or {@variantrule Immunity|XPHB} to damage  or conditions. Additionally, the next ability check or attack roll you make against the target before the end of your next turn has {@variantrule Advantage|XPHB}."
 			],
 			"classes": {
 				"fromClassList": [
@@ -49092,13 +49092,13 @@
 				{
 					"name": "Devour Mind (1/Day)",
 					"entries": [
-						"The worm vanishes and magically enters the mind of a creature it can see within 60 feet of it. The worm can't target a creature under the effect of the {@spell Mind Blank|XPHB} or {@spell Protection from Evil and Good|XPHB} spells. While in the target's mind, the worm can't take actions, and the target experiences the worm appearing in its memories as it devours each one. At the end of each of the target's turns, it takes 88 ({@damage 16d10}) Psychic damage. If this damage reduces the target to 0 {@variantrule Hit Points|XPHB}, the target is {@variantrule Stable|XPHB} but loses all its memories permanently. Only a {@spell Wish|XPHB} spell can restore the lost memories.",
+						"The worm vanishes and magically enters the mind of a creature it can see within 60 feet of it. The worm can't target a creature under the effect of  the {@spell Mind Blank|XPHB} or {@spell Protection from Evil and Good|XPHB} spells. While in the target's mind, the worm can't take actions, and the target experiences the worm appearing in its memories as it devours each one. At the end of each of the target's turns, it takes 88 ({@damage 16d10}) Psychic damage. If this damage reduces the target to 0 {@variantrule Hit Points|XPHB}, the target is {@variantrule Stable|XPHB} but loses all its memories permanently. Only a {@spell Wish|XPHB} spell can restore the lost memories.",
 						"Devour Mind ends if the target is reduced to 0 {@variantrule Hit Points|XPHB} and the worm appears in an unoccupied space within 60 feet of the target. Devour Mind can also be ended in the following ways:",
 						{
 							"type": "list",
 							"items": [
-								"As an action, the target mentally duels the worm and makes a {@dc 20} ability check using Intelligence, Wisdom, or Charisma (its choice). On a success, the worm must succeed on a Charisma saving throw with a DC equal to the check's total or Devour Mind ends.",
-								"Devour Mind ends if the target receives an effect that ends possession, including the {@spell Dispel Evil and Good|XPHB} spell.",
+								"As an action, the target mentally duels the worm  and makes a {@dc 20} ability check using Intelligence, Wisdom, or Charisma (its choice). On a success, the worm must succeed on a Charisma saving throw with a DC equal to the check's total or Devour Mind ends.",
+								"Devour Mind ends if the target receives an effect  that ends possession, including the {@spell Dispel Evil and Good|XPHB} spell.",
 								"If the target takes damage, the worm takes Psychic damage equal to half that amount. It must succeed on a Charisma saving throw with a DC equal to the Psychic damage taken, or Devour Mind ends."
 							]
 						}
@@ -49295,7 +49295,7 @@
 				{
 					"name": "Blazing Slam",
 					"entries": [
-						"{@atkr m} {@hit 11}, reach 15 ft. {@h}15 ({@damage 2d8 + 6}) Bludgeoning damage plus 9 ({@damage 2d8}) Fire damage."
+						"{@atkr m} {@hit 11}, reach 15 ft.  {@h}15 ({@damage 2d8 + 6}) Bludgeoning damage plus 9 ({@damage 2d8}) Fire damage."
 					]
 				},
 				{
@@ -52013,7 +52013,7 @@
 						}
 					]
 				},
-				"Boogleswarms are mischievous Fey spirits that take the form of weasels gathered into a slinking mob. These spirits covet and collect teeth of all kinds, but they favor the teeth of Humanoids most of all. Tales of tooth faeries might have their origin in boogleswarms, as they are known to enter into agreements to trade for teeth\u2014such as those lost by children and tucked under a pillow\u2014for rewards, favors, or safety.",
+				"Boogleswarms are mischievous Fey spirits that take the form of weasels gathered into a slinking mob. These spirits covet and collect teeth of all kinds, but they favor the teeth of Humanoids most of all. Tales of tooth faeries might have their origin in boogleswarms, as  they are known to enter into agreements to trade for teeth\u2014such as those lost by children and tucked under a pillow\u2014for rewards, favors, or safety.",
 				{
 					"type": "entries",
 					"entries": [
@@ -52789,7 +52789,7 @@
 						}
 					]
 				},
-				"Dream eaters are horrors that feed on the dreams, sense of identity, and some say the very souls of other creatures. Dream eaters have the bodies and wings of great owls, while their beaks are filled with blunt, humanlike teeth and hide long snaking tongues. Their feathers are drab colors on the exterior, but their wings display a dazzling cascade of rainbow hues on the undersides when unfurled.",
+				"Dream eaters are horrors that feed  on the dreams, sense of identity, and some say the very souls of other creatures. Dream eaters have the bodies and wings of great owls, while their beaks are filled with blunt, humanlike teeth and hide long snaking tongues. Their feathers are drab colors on the exterior, but their wings display a dazzling cascade of rainbow hues on the undersides when unfurled.",
 				"These colors flow and shift, mesmerizing the dream eater's prey and leaving them helpless. A creature whose dreams are devoured is left in a listless, near-blank state. Without help, their victims waste away.",
 				{
 					"type": "entries",
@@ -53617,7 +53617,7 @@
 						}
 					]
 				},
-				"Hospital horrors were once people, but now they are repulsive mockeries created through surgical and magical alteration. They have no memory of their past lives, existing only within a chemically induced rage. Often, they are conditioned by the use of specific command phrases that allow them to be controlled.",
+				"Hospital horrors were once people, but now they are repulsive mockeries created through surgical  and magical alteration. They have no memory of  their past lives, existing only within a chemically induced rage. Often, they are conditioned by the use of specific command phrases that allow them  to be controlled.",
 				{
 					"type": "entries",
 					"entries": [
@@ -55121,12 +55121,12 @@
 			"source": "CrookedMoon24",
 			"entries": [
 				"Phillip Druskenvald is the lord of Druskenvald. His dapper appearance and affable personality belie the immense power he holds. While he appears to be a tall, thin man with perfectly slicked back hair and a pencil-thin mustache as black as night, the truth is that he is a timeless lord of death with his origins lost deep within the Shroud itself. . . even to him.",
-				"Despite ruling in Druskenvald for many years, he was not always the realm's master. Formerly, it had belonged to the fey goddess Kehlenn, who utilized the reincarnation magics of the domain to rebirth souls as flora and fauna in a natural world where life was brutal and short.",
-				"Phillip is another kind of deathless being who arrived from beyond the mist eons ago. He usurped the realm of rebirth, claiming its reincarnating powers for his own. He then reshaped the land into his own design, even renaming it after himself. In this new afterlife, Phillip provided souls the opportunity to be reborn as sapient mortal beings to enjoy a second chance at a \"normal\" life.",
+				"Despite ruling in Druskenvald for many years, he was not always the realm's master. Formerly, it had belonged to the fey goddess Kehlenn, who utilized the reincarnation magics of  the domain to rebirth souls as flora and fauna in a natural world where life was brutal and short.",
+				"Phillip is another kind of deathless being who arrived from beyond the mist eons ago. He usurped  the realm of rebirth, claiming its reincarnating powers for his own. He then reshaped the land into  his own design, even renaming it after himself. In this new afterlife, Phillip provided souls the opportunity  to be reborn as sapient mortal beings to enjoy a second chance at a \"normal\" life.",
 				"After the slow passage of millennia, Phillip forgot about his battle with Kehlenn or that there was ever a world before the one he forged himself. He now oversees the domain with his Crescent Court, composed of the thirteen lords and ladies of Druskenvald (see chapter 1). However, he finds governance tedious and prefers to enjoy the good life he brought to the afterlife, with all the messy and sinful comforts and indulgences that come with it.",
 				"While he maintains a general grasp of the current affairs of the thirteen major provinces of Druskenvald, Phillip is mostly ignorant of the happenings in Wickermoor Hollow, heightened by the crooked power of Kehlenn that shrouds it from his view. Even worse, while in the valley, Phillip has none of the supernatural powers that make him the most formidable being in the land.",
 				"He does not know, and will only learn too late, that in Wickermoor Hollow, Kehlenn has seized his power and weaves it toward her own aims in the creation of a newborn god of sin: the Horned King. While within the confines of the valley, Phillip is very nearly just a mortal man, which will lead to his inevitable destruction.",
-				"Phillip's newfound impotence frustrates him, but he still decides to remain in the valley after being stranded there with the characters. His curiosity is stronger than his sense of preservation, and he cannot fathom a scenario where he could be in any real danger. He sees the presence of the characters as an opportunity to get to the bottom of what's happening in Wickermoor Hollow while also helping the citizens he's neglected for so long.",
+				"Phillip's newfound impotence frustrates him, but he still decides to remain in the valley after being stranded there with the characters. His curiosity is stronger than his sense of preservation, and he cannot fathom a scenario where he could be in any real danger. He sees  the presence of the characters as an opportunity  to get to the bottom of what's happening in Wickermoor Hollow while also helping the citizens he's neglected for so long.",
 				{
 					"type": "entries",
 					"name": "Friendly",
@@ -55248,8 +55248,8 @@
 						}
 					]
 				},
-				"Pumpkin heads are scarecrows of straw, sticks, and clothing topped with a carved pumpkin for a head and animated by a fiendish spirit. They are crafted by demons to resemble their Humanoid victims and returned to wherever the unfortunate souls had been snatched from.",
-				"These living effigies speak with the voice of whomever they replaced, often repeating phrases and behaviors that the missing person said or did in life while stalking and killing new prey.",
+				"Pumpkin heads are scarecrows  of straw, sticks, and clothing topped with a carved pumpkin for  a head and animated by a fiendish spirit. They are crafted by demons  to resemble their Humanoid victims and returned to wherever  the unfortunate souls had been snatched from.",
+				"These living effigies speak  with the voice of whomever  they replaced, often repeating phrases and behaviors that the missing person said or did in life while stalking and killing new prey.",
 				{
 					"type": "entries",
 					"entries": [
@@ -57007,7 +57007,7 @@
 						{
 							"type": "item",
 							"name": "{@skill Deception|XPHB} or {@skill Survival|XPHB}:",
-							"entry": "Spin a yarn about the blandness of some foods to dampen the disappointment."
+							"entry": "Spin a yarn about  the blandness of some foods to dampen  the disappointment."
 						},
 						{
 							"type": "item",
@@ -57253,7 +57253,7 @@
 					"type": "inset",
 					"style": "text-center",
 					"entries": [
-						"Impossible to think at all, without the thought of you and me.",
+						"Impossible to think at all, without the thought of you  and me.",
 						"It all would fall, nothing left to hold the stars and seas apart.",
 						"Ridiculous, there ever was a world without a 'you and me.'",
 						"To not recall a 'you' at all would send it all crashing down.",
@@ -58696,7 +58696,7 @@
 							"type": "item",
 							"name": "Fresh Blood",
 							"entries": [
-								"Within 1 mile of the lair, spilled blood doesn't dry out or coagulate, instead remaining fresh for 24 hours."
+								"Within 1 mile of the lair, spilled blood  doesn't dry out or coagulate, instead remaining fresh for 24 hours."
 							]
 						},
 						{
@@ -83299,7 +83299,7 @@
 												{
 													"type": "item",
 													"name": "Animated Building",
-													"entry": "The dovecote is an animated building that responds to Golub's commands (no action required by her). When she wakes it, it stands up on giant pigeon legs that lift the lowest floor 10 feet off the ground, and it unfurls stubby pigeon wings from its roof. It has a {@variantrule Speed|XPHB} of 50 feet and a {@variantrule Fly Speed|XPHB} of 100 feet, but it must land at the end of its turn. It moves during Golub's turn as she directs it. Golub can give the dovecote simple commands it follows without her being present to oversee it. The dovecote settles when commanded or if it has no other instructions from Golub. A creature underneath it when it lands or settles must succeed on a {@dc 15} Dexterity saving throw or take 27 ({@dice 5d10}) Bludgeoning damage and have the {@condition Prone|XPHB} condition. The cramped crawlspace under the dovecote is sized for Small creatures. If Golub dies, the dovecote settles down where it is and permanently de-animates."
+													"entry": "The dovecote is an animated building that responds to Golub's commands (no action required by her). When she wakes it, it stands up on giant pigeon legs that lift the lowest floor 10 feet off the ground, and it unfurls stubby pigeon wings from its roof. It has a {@variantrule Speed|XPHB} of 50 feet and a {@variantrule Fly Speed|XPHB}  of 100 feet, but it must land at the end of its turn. It moves during Golub's turn as she directs it. Golub can give the dovecote simple commands it follows without her being present to oversee it. The dovecote settles when commanded or if it has no other instructions from Golub. A creature underneath it when it lands or settles must succeed on a {@dc 15} Dexterity saving throw or take 27 ({@dice 5d10}) Bludgeoning damage and have the {@condition Prone|XPHB} condition. The cramped crawlspace under the dovecote is sized for Small creatures. If Golub dies, the dovecote settles down where it is and permanently de-animates."
 												},
 												{
 													"type": "item",
@@ -86373,7 +86373,7 @@
 													"name": "Creatures",
 													"id": "71a",
 													"entries": [
-														"Three {@creature Wellwyrm|CrookedMoon24|Wellwyrms} emerge to devour the helpless, offer up more souls to the Crooked Queen, and slay any who stand in their way. The wellwyrms use their {@variantrule Burrow Speed|XPHB} to ignore the {@variantrule Difficult Terrain|XPHB}."
+														"Three {@creature Wellwyrm|CrookedMoon24|Wellwyrms} emerge to devour the helpless, offer up more souls to the Crooked Queen, and slay any who stand in their way. The wellwyrms use their {@variantrule Burrow Speed|XPHB}  to ignore the {@variantrule Difficult Terrain|XPHB}."
 													]
 												},
 												{
