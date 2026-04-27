@@ -48,8 +48,8 @@
 		],
 		"edition": "one",
 		"dateAdded": 1722887888,
-		"dateLastModified": 1776257629,
-		"_dateLastModifiedHash": "3ad8c43649"
+		"dateLastModified": 1777136208,
+		"_dateLastModifiedHash": "d4a36da247"
 	},
 	"subclass": [
 		{
@@ -2525,7 +2525,7 @@
 			"subclassSource": "CrookedMoon14",
 			"level": 2,
 			"entries": [
-				"Even the humblest of your weapons channels the might of the old forest. When you cast {@spell Shillelagh}, you can cause a shield made of gnarled wood to grow into your free hand if you have one (no action required to don it), and it vanishes when the spell ends. You can't be forced to drop the affected weapon or shield unless you are {@condition incapacitated}. Additionally, for the duration of the spell, you ignore somatic components of your druid spells, and the weapon enhanced by the spell becomes a {@item druidic focus} for you."
+				"Even the humblest of your weapons channels the might of the old forest. When you cast {@spell Shillelagh}, you can cause a shield made of gnarled wood to grow into your free hand if you have one (no action required to don it), and it vanishes when the spell ends. You can't be forced to drop the affected weapon or shield unless you are {@condition incapacitated}. Additionally, for the duration of the spell, you ignore somatic components of your druid spells, and the weapon enhanced by the spell becomes a {@item druidic focus|XPHB} for you."
 			],
 			"foundryImg": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/CrookedMoon24/Foundry/Subclass/Druid/Bough%20and%20Branch.webp"
 		},
@@ -3203,7 +3203,7 @@
 					"type": "entries",
 					"name": "Phantom Charger",
 					"entries": [
-						"The ghostly steed of your Dark Rider power now ignores {@variantrule Difficult Terrain|PHB}. Additionally, when your steed takes the {@action Dash|PHB}, {@action Disengage|PHB}, or {@action Dodge|PHB} action, you can expend and roll a Draugr Die. Your steed magically teleports (with you if you're riding it) to an unoccupied space you can see within 60 feet of the steed. Each creature of your choice within 10 feet of the steed when it appears must succeed on a Constitution saving throw, taking Necrotic damage equal to the number rolled on the Draugr Die plus your Constitution modifier on a failed save or half as much damage on a successful one."
+						"The ghostly steed of your Dark Rider power now ignores Difficult Terrain. Additionally, when your steed takes the {@action Dash|PHB}, {@action Disengage|PHB}, or {@action Dodge|PHB} action, you can expend and roll a Draugr Die. Your steed magically teleports (with you if you're riding it) to an unoccupied space you can see within 60 feet of the steed. Each creature of your choice within 10 feet of the steed when it appears must succeed on a Constitution saving throw, taking Necrotic damage equal to the number rolled on the Draugr Die plus your Constitution modifier on a failed save or half as much damage on a successful one."
 					]
 				},
 				{
@@ -3217,7 +3217,7 @@
 					"type": "entries",
 					"name": "Spectral Shrieking",
 					"entries": [
-						"When a creature {@condition Grappled|PHB} by your Soul Reaper power starts its turn, it takes Psychic damage equal to your {@variantrule Proficiency|PHB|Proficiency Bonus}. When it does, you can take a {@variantrule Reaction|PHB} to expend and roll a Draugr Die, adding the number rolled to the damage."
+						"When a creature {@condition Grappled|PHB} by your Soul Reaper power starts its turn, it takes Psychic damage equal to your Proficiency Bonus. When it does, you can take a Reaction to expend and roll a Draugr Die, adding the number rolled to the damage."
 					]
 				}
 			],
@@ -3979,19 +3979,19 @@
 			"subclassShortName": "Sinner",
 			"subclassSource": "CrookedMoon14",
 			"level": 3,
-			"header": 1,
 			"toolProficiencies": [
 				{
 					"anyGamingSet": 2
 				}
 			],
+			"header": 1,
 			"entries": [
 				"You have learned the secret art of Jinxcrafting\u2014drawing magical power from the dark deeds and deals of sin. You gain the following benefits.",
 				{
 					"type": "entries",
 					"name": "Cards and Bones",
 					"entries": [
-						"You gain proficiency with two gaming sets of your choice ({@item playing cards|PHB} and {@item dice set|PHB|dice} recommended)."
+						"You gain proficiency with two gaming sets of your choice ({@item playing cards|XPHB} and {@item dice set|PHB|dice} recommended)."
 					]
 				},
 				{
@@ -4037,7 +4037,7 @@
 					"rows": [
 						[
 							"2",
-							"{@b Snake Eyes.} On the target's next turn, it can only do one of the following: move or take an action or a {@variantrule Bonus Action|PHB}. If it targets you or your allies with an attack on that turn, it takes 2d6 Psychic damage."
+							"{@b Snake Eyes.} On the target's next turn, it can only do one of the following: move or take an action or a Bonus Action. If it targets you or your allies with an attack on that turn, it takes 2d6 Psychic damage."
 						],
 						[
 							"3-4",
@@ -4049,11 +4049,11 @@
 						],
 						[
 							"7",
-							"{@b Cheap Shot.} Until the end of its next turn, the target's {@variantrule Speed|XPHB} is halved, and for that duration, attack rolls against it have {@variantrule Advantage|PHB}."
+							"{@b Cheap Shot.} Until the end of its next turn, the target's {@variantrule Speed|XPHB} is halved, and for that duration, attack rolls against it have Advantage."
 						],
 						[
 							"8-9",
-							"{@b Withered Arm.} Until the end of its next turn, the target has {@variantrule Disadvantage} on {@variantrule D20 Test|PHB|D20 Tests} that rely on Strength."
+							"{@b Withered Arm.} Until the end of its next turn, the target has Disadvantage on D20 Tests that rely on Strength."
 						],
 						[
 							"10-11",
@@ -4061,7 +4061,7 @@
 						],
 						[
 							"12",
-							"{@b Dead Man.} If the next attack roll you make before the end of your next turn misses, it hits instead. If that first attack roll hits, the attack is automatically a {@variantrule Critical Hit|PHB}. If you roll a 20 on the d20, roll the attack's damage dice three times instead of twice."
+							"{@b Dead Man.} If the next attack roll you make before the end of your next turn misses, it hits instead. If that first attack roll hits, the attack is automatically a Critical Hit. If you roll a 20 on the d20, roll the attack's damage dice three times instead of twice."
 						]
 					]
 				}
@@ -4268,7 +4268,7 @@
 			"level": 6,
 			"header": 2,
 			"entries": [
-				"As a bonus action, you can expend your {@subclassFeature Blood Well|Sorcerer|PHB|Crimson|CrookedMoon14|3|CrookedMoon14}  to magically dissolve into a pool of blood, along with everything you're wearing or carrying, for 1 hour. The transformation ends early if you drop to 0 hit points or if you choose to end it (no action required).",
+				"As a bonus action, you can expend your {@subclassFeature Blood Well|Sorcerer|PHB|Crimson|CrookedMoon14|1|CrookedMoon14}  to magically dissolve into a pool of blood, along with everything you're wearing or carrying, for 1 hour. The transformation ends early if you drop to 0 hit points or if you choose to end it (no action required).",
 				"While you are a pool of blood, you use your game statistics with the following changes.",
 				{
 					"type": "list",
@@ -4301,7 +4301,7 @@
 			],
 			"header": 2,
 			"entries": [
-				"You have resistance to necrotic damage. In addition, when you finish a short rest, you can expend your {@subclassFeature Blood Well|Sorcerer|PHB|Crimson|CrookedMoon14|3|CrookedMoon14} to reduce your level of {@condition exhaustion}, if any, by 1."
+				"You have resistance to necrotic damage. In addition, when you finish a short rest, you can expend your {@subclassFeature Blood Well|Sorcerer|PHB|Crimson|CrookedMoon14|1|CrookedMoon14} to reduce your level of {@condition exhaustion}, if any, by 1."
 			],
 			"foundryImg": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/CrookedMoon24/Foundry/Subclass/Sorcerer/Scarlet%20Vigor.webp"
 		},
@@ -4321,14 +4321,14 @@
 					"type": "entries",
 					"name": "Blood Boil",
 					"entries": [
-						"You regain the use of your {@subclassFeature Blood Well|Sorcerer|PHB|Crimson|CrookedMoon14|3|CrookedMoon14}."
+						"You regain the use of your {@subclassFeature Blood Well|Sorcerer|PHB|Crimson|CrookedMoon14|1|CrookedMoon14}."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Crimson Pulse",
 					"entries": [
-						"Expend your {@subclassFeature Blood Well|Sorcerer|PHB|Crimson|CrookedMoon14|3|CrookedMoon14} to make the next Metamagic option you use this turn cost no sorcery point."
+						"Expend your {@subclassFeature Blood Well|Sorcerer|PHB|Crimson|CrookedMoon14|1|CrookedMoon14} to make the next Metamagic option you use this turn cost no sorcery point."
 					]
 				}
 			],
@@ -4345,7 +4345,7 @@
 			"level": 18,
 			"header": 2,
 			"entries": [
-				"Your hunger for vital essence is unquenchable. As an action, you can unleash tendrils of blood that lash any creatures of your choice within 30 feet of you. A target must make a Constitution saving throw, taking {@damage 5d8} necrotic damage on a failed save, or half as much damage on a successful one. If your {@subclassFeature Blood Well|Sorcerer|PHB|Crimson|CrookedMoon14|3|CrookedMoon14} is already expended when you use this action, the targets have disadvantage on the saving throw. If at least one creature takes damage from Sanguine Feast, you regain a number of hit points equal to the damage roll.",
+				"Your hunger for vital essence is unquenchable. As an action, you can unleash tendrils of blood that lash any creatures of your choice within 30 feet of you. A target must make a Constitution saving throw, taking {@damage 5d8} necrotic damage on a failed save, or half as much damage on a successful one. If your {@subclassFeature Blood Well|Sorcerer|PHB|Crimson|CrookedMoon14|1|CrookedMoon14} is already expended when you use this action, the targets have disadvantage on the saving throw. If at least one creature takes damage from Sanguine Feast, you regain a number of hit points equal to the damage roll.",
 				"Once you use this feature, you can't do so again until you finish a long rest, unless you spend 5 sorcery points to use it again."
 			],
 			"foundryImg": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/CrookedMoon24/Foundry/Subclass/Sorcerer/Sanguine%20Feast.webp"
@@ -4906,7 +4906,7 @@
 						],
 						[
 							"3",
-							"The nearest other creature within 60 feet of you must succeed on a Constitution saving throw or take Necrotic damage equal to two rolls of your Intrusion Die (at its starting size), and you regain a number of {@variantrule Hit Points|PHB} equal to the damage dealt."
+							"The nearest other creature within 60 feet of you must succeed on a Constitution saving throw or take Necrotic damage equal to two rolls of your Intrusion Die (at its starting size), and you regain a number of Hit Points equal to the damage dealt."
 						],
 						[
 							"4",
@@ -4914,7 +4914,7 @@
 						],
 						[
 							"5",
-							"One of your arms warps into an alien appendage, such as a distorted version of an arm or a twisting tentacle, for 1 minute. You can make {@variantrule Unarmed Strike|PHB|Unarmed Strikes} with the limb using your spell attack bonus. Instead of the normal damage, roll a number of your Intrusion dice (at its starting size) equal to your {@variantrule Proficiency|XPHB|Proficiency Bonus}. The target takes Acid damage equal to the total rolled."
+							"One of your arms warps into an alien appendage, such as a distorted version of an arm or a twisting tentacle, for 1 minute. You can make Unarmed Strikes with the limb using your spell attack bonus. Instead of the normal damage, roll a number of your Intrusion dice (at its starting size) equal to your {@variantrule Proficiency|XPHB|Proficiency Bonus}. The target takes Acid damage equal to the total rolled."
 						],
 						[
 							"6",
@@ -4938,11 +4938,11 @@
 						],
 						[
 							"11",
-							"For 1 hour, you hear whispered, disembodied thoughts of hateful scorn directed at you. While you can hear the whispers, you have {@variantrule Disadvantage|PHB} on ability checks and saving throws that rely on Wisdom."
+							"For 1 hour, you hear whispered, disembodied thoughts of hateful scorn directed at you. While you can hear the whispers, you have Disadvantage on ability checks and saving throws that rely on Wisdom."
 						],
 						[
 							"12",
-							"An Aberration or a Fiend with a CR equal to your Wizard level or lower (GM's choice) appears in an unoccupied space within 30 feet of you. The GM decides the creature's attitude ({@variantrule Hostile [Attitude]|PHB|Hostile}/{@variantrule Indifferent [Attitude]|PHB|Indifferent}/{@variantrule Friendly [Attitude]|PHB|Friendly}) and actions."
+							"An Aberration or a Fiend with a CR equal to your Wizard level or lower (GM's choice) appears in an unoccupied space within 30 feet of you. The GM decides the creature's attitude ({@variantrule Hostile [Attitude]|XPHB|Hostile}/{@variantrule Indifferent [Attitude]|XPHB|Indifferent}/{@variantrule Friendly [Attitude]|XPHB|Friendly}) and actions."
 						]
 					]
 				}
@@ -7398,12 +7398,12 @@
 			"subclassShortName": "Sinner",
 			"subclassSource": "CrookedMoon24",
 			"level": 3,
-			"header": 1,
 			"toolProficiencies": [
 				{
 					"anyGamingSet": 2
 				}
 			],
+			"header": 1,
 			"entries": [
 				"You have learned the secret art of Jinxcrafting\u2014drawing magical power from the dark deeds and deals of sin. You gain the following benefits.",
 				{
@@ -7472,7 +7472,7 @@
 						],
 						[
 							"8-9",
-							"{@b Withered Arm.} Until the end of its next turn, the target has {@variantrule Disadvantage} on {@variantrule D20 Test|XPHB|D20 Tests} that rely on Strength."
+							"{@b Withered Arm.} Until the end of its next turn, the target has {@variantrule Disadvantage|XPHB} on {@variantrule D20 Test|XPHB|D20 Tests} that rely on Strength."
 						],
 						[
 							"10-11",
@@ -9731,7 +9731,7 @@
 							"item": "Perfume (vial)|phb"
 						},
 						{
-							"item": "travler's clothes|phb"
+							"item": "traveler's clothes|phb"
 						},
 						{
 							"value": 500
@@ -9848,7 +9848,7 @@
 							"item": "perfume|xphb"
 						},
 						{
-							"item": "travler's clothes|xphb"
+							"item": "traveler's clothes|xphb"
 						},
 						{
 							"value": 500
@@ -10697,7 +10697,7 @@
 							"item": "Shovel|xphb"
 						},
 						{
-							"item": "Soap|xphb"
+							"item": "Soap|phb"
 						},
 						{
 							"item": "Traveler's Clothes|xphb"
@@ -15547,13 +15547,6 @@
 				"Powerful Build",
 				"Skill Proficiency"
 			],
-			"sizeEntry": {
-				"type": "item",
-				"name": "Size:",
-				"entries": [
-					"Medium (about 7-8 feet tall)"
-				]
-			},
 			"skillProficiencies": [
 				{
 					"choose": {
@@ -15565,6 +15558,13 @@
 					}
 				}
 			],
+			"sizeEntry": {
+				"type": "item",
+				"name": "Size:",
+				"entries": [
+					"Medium (about 7-8 feet tall)"
+				]
+			},
 			"entries": [
 				{
 					"type": "entries",
@@ -15690,13 +15690,6 @@
 				"Natural Weapon",
 				"Skill Proficiency"
 			],
-			"sizeEntry": {
-				"type": "item",
-				"name": "Size:",
-				"entries": [
-					"Medium (about 5-6 feet tall)"
-				]
-			},
 			"skillProficiencies": [
 				{
 					"choose": {
@@ -15709,6 +15702,13 @@
 					}
 				}
 			],
+			"sizeEntry": {
+				"type": "item",
+				"name": "Size:",
+				"entries": [
+					"Medium (about 5-6 feet tall)"
+				]
+			},
 			"entries": [
 				{
 					"type": "entries",
@@ -16437,6 +16437,17 @@
 			"traitTags": [
 				"Skill Proficiency"
 			],
+			"skillProficiencies": [
+				{
+					"choose": {
+						"count": 2,
+						"from": [
+							"deception",
+							"stealth"
+						]
+					}
+				}
+			],
 			"sizeEntry": {
 				"type": "item",
 				"name": "Size:",
@@ -16451,17 +16462,6 @@
 					"30 feet, {@variantrule Climb Speed|XPHB} equal to your {@variantrule Speed|XPHB}"
 				]
 			},
-			"skillProficiencies": [
-				{
-					"choose": {
-						"count": 2,
-						"from": [
-							"deception",
-							"stealth"
-						]
-					}
-				}
-			],
 			"entries": [
 				{
 					"type": "entries",
@@ -16905,6 +16905,18 @@
 			"traitTags": [
 				"Skill Proficiency"
 			],
+			"skillProficiencies": [
+				{
+					"choose": {
+						"count": 1,
+						"from": [
+							"insight",
+							"perception",
+							"survival"
+						]
+					}
+				}
+			],
 			"sizeEntry": {
 				"type": "item",
 				"name": "Size:",
@@ -16919,18 +16931,6 @@
 					"30 feet, {@variantrule Fly Speed|XPHB} equal to half your {@variantrule Speed|XPHB}"
 				]
 			},
-			"skillProficiencies": [
-				{
-					"choose": {
-						"count": 1,
-						"from": [
-							"insight",
-							"perception",
-							"survival"
-						]
-					}
-				}
-			],
 			"entries": [
 				{
 					"type": "entries",
@@ -26512,7 +26512,7 @@
 					"type": "entries",
 					"name": "Fiendish Lure (Rare+)",
 					"entries": [
-						"As a {@action Magic} action, choose one Fiend or Humanoid that you can see within 60 feet. The target must succeed on a Wisdom saving throw (DC = 16 + the banjo's bonus) or have the {@condition Charmed|XPHB} condition (ignoring a demon's {@variantrule Immunity|XPHB}) for 1 minute. The {@condition Charmed|XPHB} condition ends if you or your allies deal damage to the target or force it to make a saving throw. Once a creature is {@condition Charmed|XPHB} in this way, this property can't be used again until the next dusk."
+						"As a {@action Magic|XPHB} action, choose one Fiend or Humanoid that you can see within 60 feet. The target must succeed on a Wisdom saving throw (DC = 16 + the banjo's bonus) or have the {@condition Charmed|XPHB} condition (ignoring a demon's {@variantrule Immunity|XPHB}) for 1 minute. The {@condition Charmed|XPHB} condition ends if you or your allies deal damage to the target or force it to make a saving throw. Once a creature is {@condition Charmed|XPHB} in this way, this property can't be used again until the next dusk."
 					]
 				},
 				{
@@ -26533,7 +26533,7 @@
 					"type": "entries",
 					"name": "Birdcage (Legendary)",
 					"entries": [
-						"As a {@action Magic} action, you can force a creature you have {@condition Charmed|XPHB} to make a DC 19 Charisma saving throw. On a failed save, the creature disappears, drawn into the banjo. The banjo can contain one creature at a time in this way for up to 24 hours. On a success, the {@condition Charmed|XPHB} condition ends on the creature."
+						"As a {@action Magic|XPHB} action, you can force a creature you have {@condition Charmed|XPHB} to make a DC 19 Charisma saving throw. On a failed save, the creature disappears, drawn into the banjo. The banjo can contain one creature at a time in this way for up to 24 hours. On a success, the {@condition Charmed|XPHB} condition ends on the creature."
 					]
 				}
 			],
@@ -26572,7 +26572,7 @@
 					"type": "entries",
 					"name": "Fiendish Lure (Rare+)",
 					"entries": [
-						"As a {@action Magic} action, choose one Fiend or Humanoid that you can see within 60 feet. The target must succeed on a Wisdom saving throw (DC = 16 + the banjo's bonus) or have the {@condition Charmed|XPHB} condition (ignoring a demon's {@variantrule Immunity|XPHB}) for 1 minute. The {@condition Charmed|XPHB} condition ends if you or your allies deal damage to the target or force it to make a saving throw. Once a creature is {@condition Charmed|XPHB} in this way, this property can't be used again until the next dusk."
+						"As a {@action Magic|XPHB} action, choose one Fiend or Humanoid that you can see within 60 feet. The target must succeed on a Wisdom saving throw (DC = 16 + the banjo's bonus) or have the {@condition Charmed|XPHB} condition (ignoring a demon's {@variantrule Immunity|XPHB}) for 1 minute. The {@condition Charmed|XPHB} condition ends if you or your allies deal damage to the target or force it to make a saving throw. Once a creature is {@condition Charmed|XPHB} in this way, this property can't be used again until the next dusk."
 					]
 				},
 				{
@@ -26618,7 +26618,7 @@
 					"type": "entries",
 					"name": "Fiendish Lure (Rare+)",
 					"entries": [
-						"As a {@action Magic} action, choose one Fiend or Humanoid that you can see within 60 feet. The target must succeed on a Wisdom saving throw (DC = 16 + the banjo's bonus) or have the {@condition Charmed|XPHB} condition (ignoring a demon's {@variantrule Immunity|XPHB}) for 1 minute. The {@condition Charmed|XPHB} condition ends if you or your allies deal damage to the target or force it to make a saving throw. Once a creature is {@condition Charmed|XPHB} in this way, this property can't be used again until the next dusk."
+						"As a {@action Magic|XPHB} action, choose one Fiend or Humanoid that you can see within 60 feet. The target must succeed on a Wisdom saving throw (DC = 16 + the banjo's bonus) or have the {@condition Charmed|XPHB} condition (ignoring a demon's {@variantrule Immunity|XPHB}) for 1 minute. The {@condition Charmed|XPHB} condition ends if you or your allies deal damage to the target or force it to make a saving throw. Once a creature is {@condition Charmed|XPHB} in this way, this property can't be used again until the next dusk."
 					]
 				},
 				{
@@ -30556,7 +30556,7 @@
 					"type": "entries",
 					"name": "Psychopomp (Legendary)",
 					"entries": [
-						"As a {@variantrule Magic|XPHB} action, you and one willing creature that isn't Undead that you touch become wraithlike until the end of your next turn. While wraithlike, you can move through other creatures and objects as if they were {@variantrule Difficult Terrain|XPHB}. If you end your turn inside an object, you are shunted to the nearest unoccupied space and take {@damage 1d10} Force damage. If the creature you touch is Undead, it must succeed on a DC 19 Charisma saving throw or have {@variantrule Vulnerability|XPHB} to all damage until the start of your next turn. This property can be used three times, regaining all expended uses daily at dusk."
+						"As a {@action Magic|XPHB} action, you and one willing creature that isn't Undead that you touch become wraithlike until the end of your next turn. While wraithlike, you can move through other creatures and objects as if they were {@variantrule Difficult Terrain|XPHB}. If you end your turn inside an object, you are shunted to the nearest unoccupied space and take {@damage 1d10} Force damage. If the creature you touch is Undead, it must succeed on a DC 19 Charisma saving throw or have {@variantrule Vulnerability|XPHB} to all damage until the start of your next turn. This property can be used three times, regaining all expended uses daily at dusk."
 					]
 				}
 			],
@@ -33170,7 +33170,7 @@
 					"type": "entries",
 					"name": "Fabled Heirloom",
 					"entries": [
-						"Each Fabled Heirloom is a magic item that grows in strength as its attuned owner gains power. The rarity of each heirloom increases as the character grows in level, as shown on the Heirloom Rarity table. An heirloom's description details the properties it always has, as well as the properties it gains as it increases in rarity. The heirloom has all the properties of its rarity and lower."
+						"Each Fabled Heirloom is a magic item that grows in strength as its attuned owner gains power. The rarity of each heirloom increases as the character grows in level, as shown on the {@table Heirloom Rarity|CrookedMoon24} table. An heirloom's description details the properties it always has, as well as the properties it gains as it increases in rarity. The heirloom has all the properties of its rarity and lower."
 					]
 				}
 			]
@@ -33311,7 +33311,7 @@
 						" \"DEATH!! How spooky! Oh, don't worry! It ain't as scary as all that! Look around ya. You're on a train traveling through death itself and it's still a party. This card simply means that one chapter of your life is ending so that a new one can begin.\" "
 					]
 				},
-				"If {@i Death} is pulled, the {@item Idol of the Beast of Blight|CrookedMoon24} is found hanging in {@area Gorthos's den|594|x} after the defeat of {@creature The Beast of Blight|CrookedMoon24}."
+				"If {@i Death} is pulled, the {@item Idol of the Beast of Blight|CrookedMoon24} is found hanging in Gorthos's den after the defeat of {@creature The Beast of Blight|CrookedMoon24}."
 			]
 		},
 		{
@@ -33335,7 +33335,7 @@
 						" \"Oh no! It looks like your past has come back to haunt you! It's time for you to confront your past and atone for anything that needs atoning! Judgement comes for everyone!\" "
 					]
 				},
-				"If {@i Judgement} is pulled, the {@item Lantern of the Chained Reaper|CrookedMoon24} remains on the floor of the {@area Tomb of the Shrouded|633|x} after the defeat of {@creature The Chained Reaper|CrookedMoon24}."
+				"If {@i Judgement} is pulled, the {@item Lantern of the Chained Reaper|CrookedMoon24} remains on the floor of the Tomb of the Shrouded after the defeat of {@creature The Chained Reaper|CrookedMoon24}."
 			]
 		},
 		{
@@ -33359,7 +33359,7 @@
 						" \"Oh, Justice! You may find yourself in a position to cast judgment, but don't let that kind of power go to your head! Everything isn't always what it seems, so always consider both sides to any story. You might have the power now, but eventually karma will rebalance the scales.\" "
 					]
 				},
-				"If {@i Justice} is pulled, the {@item Shield of Marius Renathyr|CrookedMoon24} is found hanging in the stables of {@area the Crimson Monastery|2f4|x}."
+				"If {@i Justice} is pulled, the {@item Shield of Marius Renathyr|CrookedMoon24} is found hanging in the stables of the Crimson Monastery."
 			]
 		},
 		{
@@ -33383,7 +33383,7 @@
 						" \"Strength is one of my favorites! A girl like me ain't got a lotta muscle, but I do gotta lotta heart, and that's really what this card is all about. Don't bury yourself beneath the weight of your past. Find your inner strength and you can face whatever challenges await!\" "
 					]
 				},
-				"If {@i Strength} is pulled, the {@item Shovel of Yorgrim|CrookedMoon24} is found in the chamber of rest in {@area Shadestone Sanctuary|60f|x} in Maidenmist Cemetery."
+				"If {@i Strength} is pulled, the {@item Shovel of Yorgrim|CrookedMoon24} is found in the chamber of rest in Shadestone Sanctuary in Maidenmist Cemetery."
 			]
 		},
 		{
@@ -33407,7 +33407,7 @@
 						" \"Temperance is about change and endurance. Life, and even death, can be chaos. But even in turmoil, you can find harmony. Simply look for the good in the bad, and temper yourself so you can embrace the change that is to come.\" "
 					]
 				},
-				"If {@i Temperance} is pulled, the {@item Veil of the Weeping Widow|CrookedMoon24} remains {@area over Matron Lethica's face|4e2|x} after the defeat of {@creature The Weeping Widow|CrookedMoon24}."
+				"If {@i Temperance} is pulled, the {@item Veil of the Weeping Widow|CrookedMoon24} remains over Matron Lethica's face after the defeat of {@creature The Weeping Widow|CrookedMoon24}."
 			]
 		},
 		{
@@ -33431,7 +33431,7 @@
 						" \"The Chariot is all about freedom and breaking free from the cage of self-doubt. I know it can be hard, but don't let the wicked voices inside your head tell ya that you can't escape. Banish your inner demons, trust in yourself, and let the chariot guide you.\" "
 					]
 				},
-				"If {@i The Chariot} is pulled, the {@item Scythe of the Harvest Terror|CrookedMoon24} remains in the {@area Fields of the Crow|2b9|x} after the defeat of {@creature The Harvest Terror|CrookedMoon24}"
+				"If {@i The Chariot} is pulled, the {@item Scythe of the Harvest Terror|CrookedMoon24} remains in the Fields of the Crow after the defeat of {@creature The Harvest Terror|CrookedMoon24}"
 			]
 		},
 		{
@@ -33455,7 +33455,7 @@
 						" \"Oh Gosh! I don't want to spook ya, but it looks like you might be easily manipulated! Whatever you do, don't give into temptation. The Devil whispers of dark entities that would use your desires to corrupt you for their nefarious ends. Beware!\" "
 					]
 				},
-				"If {@i The Devil} is pulled, the {@item Cane of Phillip Druskenvald|CrookedMoon24} can be found {@area in Kehlenn's barrow|781|x} before the battle with {@creature The Horned King|CrookedMoon24}."
+				"If {@i The Devil} is pulled, the {@item Cane of Phillip Druskenvald|CrookedMoon24} can be found in Kehlenn's barrow before the battle with {@creature The Horned King|CrookedMoon24}."
 			]
 		},
 		{
@@ -33479,7 +33479,7 @@
 						" \"You ever wanted complete control over your life? You're in luck! The Emperor promises that in spades! Sure, you gotta do a bit of work first\u2014break some habits, change a belief or two\u2014but if you do that, you'll be the one dealing the cards, not losing the game!\" "
 					]
 				},
-				"If {@i The Emperor} is pulled, the {@item Blunderbuss of the Grinning Sinner|CrookedMoon24} is clutched in {@area Mister Crossroads's dead hands|3cd|x} after the defeat of {@creature The Grinning Sinner|CrookedMoon24}."
+				"If {@i The Emperor} is pulled, the {@item Blunderbuss of the Grinning Sinner|CrookedMoon24} is clutched in Mister Crossroads's dead hands after the defeat of {@creature The Grinning Sinner|CrookedMoon24}."
 			]
 		},
 		{
@@ -33503,7 +33503,7 @@
 						" \"When times get tough, there is nothin' quite like a mother's love! And that's really the Empress in a nutshell. This card appears when you need it the most. I see a house on a hill and a mama tucking you in tight after a terrible nightmare. That's the Empress.\" "
 					]
 				},
-				"If {@i The Empress} is pulled, the {@item Cauldron of the Vermintoll Coven|CrookedMoon24} remains in {@area the ruins of the Crooked House|22a|x} after the defeat of {@creature The Vermintoll Abomination|CrookedMoon24}"
+				"If {@i The Empress} is pulled, the {@item Cauldron of the Vermintoll Coven|CrookedMoon24} remains in the ruins of the Crooked House after the defeat of {@creature The Vermintoll Abomination|CrookedMoon24}"
 			]
 		},
 		{
@@ -33551,7 +33551,7 @@
 						" \"Oh honey! You might be feelin' like the world has been flipped upside down. Heck, you might even be feelin' powerless or trapped. But the Hanged Man encourages you to live in the moment, have a little patience, and let the solution come to you!\" "
 					]
 				},
-				"If {@i The Hanged Man} is pulled, the {@item Banjo of Ol' Jericho Sticks|CrookedMoon24} is found in the basement of the windmill in {@area Foxwillow|276|x}."
+				"If {@i The Hanged Man} is pulled, the {@item Banjo of Ol' Jericho Sticks|CrookedMoon24} is found in the basement of the windmill in Foxwillow."
 			]
 		},
 		{
@@ -33575,7 +33575,7 @@
 						" \"The Hermit isn't as lonely as it seems. You don't need to run off into the forest or anything. You just need to break up your routine a little. It's time to walk a new path. While it's easy to rely on a guide, you gotta start relying on yourself!\" "
 					]
 				},
-				"If {@i The Hermit} is pulled, the {@item Staff of Farryn of the Greenwood|CrookedMoon24} is found embedded in the ground beside the {@area Befouled Wellspring|57b|x} in Hartsblight Forest."
+				"If {@i The Hermit} is pulled, the {@item Staff of Farryn of the Greenwood|CrookedMoon24} is found embedded in the ground beside the Befouled Wellspring in Hartsblight Forest."
 			]
 		},
 		{
@@ -33599,7 +33599,7 @@
 						" \"Learnin' is next to godliness. I'm pretty sure that's how the saying goes! Anyway, the Hierophant is telling you just that. There is someone in your future that can lead you down the right path. You just gotta seek em' out and be practically bloodthirsty in your quest for knowledge.\""
 					]
 				},
-				"If {@i The Hierophant} is pulled, the {@item Sword of the Crimson Abbot|CrookedMoon24} is embedded in {@area the altar of the Sanguine Cathedral|342|x} after the defeat of {@creature The Crimson Abbot|CrookedMoon24}."
+				"If {@i The Hierophant} is pulled, the {@item Sword of the Crimson Abbot|CrookedMoon24} is embedded in the altar of the Sanguine Cathedral after the defeat of {@creature The Crimson Abbot|CrookedMoon24}."
 			]
 		},
 		{
@@ -33623,7 +33623,7 @@
 						" \"The High Priestess! Well, ain't that swell! You gotta listen to your heart and use your intuition. Look into that place where your memories rest, and you'll find you've got all the experience you need to make the tough choices ahead.\" "
 					]
 				},
-				"If {@i The High Priestess} is pulled, the {@item Mask of Lethica Nightborne|CrookedMoon24} is found among the mementos on the shrine in {@area Lethica's Quarters|4a4|x} in Memory's Rest Sanatorium."
+				"If {@i The High Priestess} is pulled, the {@item Mask of Lethica Nightborne|CrookedMoon24} is found among the mementos on the shrine in Lethica's Quarters in Memory's Rest Sanatorium."
 			]
 		},
 		{
@@ -33647,7 +33647,7 @@
 						" \"Awww, the Lovers! There sure ain't nothin' better than love. Someone has recently come into your life who's gonna flip your world on its axis. Don't get me wrong, I'd love for you to have your own Phil, but this person could be anyone! Even if they're the cat's pajamas, don't let love overtake logic.\" "
 					]
 				},
-				"If {@i The Lovers} is pulled, the {@item Planchette of Adela Druskenvald|CrookedMoon24} is found on the charred corpse of Adela Druskenvald in the {@area Green Queen Inn|747|x}."
+				"If {@i The Lovers} is pulled, the {@item Planchette of Adela Druskenvald|CrookedMoon24} is found on the charred corpse of Adela Druskenvald in the Green Queen Inn."
 			]
 		},
 		{
@@ -33695,7 +33695,7 @@
 						" \"You wouldn't think the Moon was eerie by the name alone, but I'm tellin' ya, it is! You are surrounded by illusions and trickery, and nothing is what it seems to be. You must seek truth amidst the madness, even when you aren't sure if you can trust yourself.\" "
 					]
 				},
-				"If {@i The Moon} is pulled, the character this card was pulled for receives three Twists of Fate that last until they are expended after defeating {@creature Vessla Browntooth|CrookedMoon24} in {@area the Crooked House|22a|x}. Once per turn, when a creature the character can see makes a {@variantrule D20 Test|XPHB}, the character can expend one Twist of Fate to replace the {@dice d20} roll with a 1 or a 20."
+				"If {@i The Moon} is pulled, the character this card was pulled for receives three Twists of Fate that last until they are expended after defeating {@creature Vessla Browntooth|CrookedMoon24} in the Crooked House. Once per turn, when a creature the character can see makes a {@variantrule D20 Test|XPHB}, the character can expend one Twist of Fate to replace the {@dice d20} roll with a 1 or a 20."
 			]
 		},
 		{
@@ -33719,7 +33719,7 @@
 						" \"Aren't you the lucky one getting the Star card?! When all around you is nothing but darkness, the star is a shining beacon of hope within it. Use the light inside yourself to take control of your destiny.\" "
 					]
 				},
-				"If {@i The Star} is pulled, the character this card was pulled for gains a feat of their choice for which {@area they qualify after defeating|419|x} {@creature Stonoga Blackstinger|CrookedMoon24} in Skitterdeep Mine."
+				"If {@i The Star} is pulled, the character this card was pulled for gains a feat of their choice for which they qualify after defeating {@creature Stonoga Blackstinger|CrookedMoon24} in Skitterdeep Mine."
 			]
 		},
 		{
@@ -33743,7 +33743,7 @@
 						" \"Nothin' is quite as fun as the Sun! This card is positutely positive! The Sun illuminates the shadows and chases away the darkness. Good things lie ahead! Just don't forget that for every ray of light that is cast, there is always a shadow along with it.\" "
 					]
 				},
-				"If {@i The Sun} is pulled, the character this card was pulled for increases one ability score of their choice by 2 after defeating {@creature Golub Graygullet|CrookedMoon24} in the {@area Roving Rookery|674|x}. This increase can't raise a score above 24."
+				"If {@i The Sun} is pulled, the character this card was pulled for increases one ability score of their choice by 2 after defeating {@creature Golub Graygullet|CrookedMoon24} in the Roving Rookery. This increase can't raise a score above 24."
 			]
 		},
 		{
@@ -33767,7 +33767,7 @@
 						" \"The Tower crumbles all around you. Truths are laid bare, and something in your life is soon to be destroyed. That may sound scary, and that's because it is! But remember, if the forest burns, from the ashes another forest will grow anew.\" "
 					]
 				},
-				"If {@i The Tower} is pulled, the {@item Visage of the Old Ways|CrookedMoon24} is found {@area on a slain cultist|733|x} after the defeat of {@creature The Wicker Man|CrookedMoon24}."
+				"If {@i The Tower} is pulled, the {@item Visage of the Old Ways|CrookedMoon24} is found on a slain cultist after the defeat of {@creature The Wicker Man|CrookedMoon24}."
 			]
 		},
 		{
@@ -33791,7 +33791,7 @@
 						" \"Now this card is just the berries! The World is ever changing and constantly throwing obstacles in your way, but pulling this card is a sign that you are about to overcome something monumental. Everything you must sacrifice will be worth it! Victory awaits!\" "
 					]
 				},
-				"If {@i The World} is pulled, the character this card was pulled for is granted the ability to cast the {@spell Wish|XPHB} spell one time {@area after defeating|7a7|x} {@creature The Horned King|CrookedMoon24}."
+				"If {@i The World} is pulled, the character this card was pulled for is granted the ability to cast the {@spell Wish|XPHB} spell one time after defeating {@creature The Horned King|CrookedMoon24}."
 			]
 		},
 		{
@@ -33815,7 +33815,7 @@
 						" \"Everything is about to change! Fate can be a bit scary when you have no control, but don't fret. What is to come is the direct result of choices you've already made. Since the Wheel of Fortune never stops spinnin', you can always make new choices to correct the path.\" "
 					]
 				},
-				"If {@i Wheel of Fortune} is pulled, the {@item Cutlass of Briggsy Kratch|CrookedMoon24} is found in the swamp water of {@area the Drowned Crossroads|388|x}."
+				"If {@i Wheel of Fortune} is pulled, the {@item Cutlass of Briggsy Kratch|CrookedMoon24} is found in the swamp water of the Drowned Crossroads."
 			]
 		},
 		{
@@ -34019,7 +34019,7 @@
 				"height": 1418
 			},
 			"entries": [
-				"A frantic {@creature Commoner|CrookedMoon24} stands in a clearing, surrounded by snarling wolves. They cry out for help.",
+				"A frantic {@creature Commoner|XMM} stands in a clearing, surrounded by snarling wolves. They cry out for help.",
 				{
 					"type": "entries",
 					"name": "Development",
@@ -34112,7 +34112,7 @@
 				"height": 1418
 			},
 			"entries": [
-				"One {@creature Dingpot|CrookedMoon24} sits unattended, filled with bubbling brew, attempting to speak with 1d4 frogs ({@creature Commoners|XPHB}).",
+				"One {@creature Dingpot|CrookedMoon24} sits unattended, filled with bubbling brew, attempting to speak with 1d4 frogs ({@creature Commoner|XMM|Commoners}).",
 				{
 					"type": "entries",
 					"name": "Development",
@@ -42289,7 +42289,6 @@
 			],
 			"cr": "5",
 			"gear": [
-				"animal mask|xphb",
 				{
 					"item": "dagger|xphb",
 					"quantity": 6
@@ -52982,7 +52981,7 @@
 			"source": "CrookedMoon24",
 			"entries": [
 				"Elias {@i (eh-LYE-us)} Greaves was a gambler from the world of the living who dreamt of wealth and influence far beyond his station. Seemingly blessed by Lady Luck herself, he won big at every gambling hall he visited, eventually growing bored and craving a new challenge. He found a way to board the {@i Ghostlight Express} and travel to Druskenvald, where he met Phillip and Adela.",
-				"Despite his powerful new friends, his luck ran out in the lands of death, and his fortune was quickly spent. Soon, he was stuck playing low stakes games aboard the{@i Laughlin Lullaby}, a riverboat that traveled up and down the Silverbell River in Wickermoor Hollow. In desperation, he made a deal with {@area Mister Crossroads|353|x} to turn his luck around.",
+				"Despite his powerful new friends, his luck ran out in the lands of death, and his fortune was quickly spent. Soon, he was stuck playing low stakes games aboard the{@i Laughlin Lullaby}, a riverboat that traveled up and down the Silverbell River in Wickermoor Hollow. In desperation, he made a deal with Mister Crossroads to turn his luck around.",
 				"After shaking the croc-folk's hand, his luck instantly turned around, and he even won ownership of the riverboat in a poker bet. He renamed it {@i Dead Man's Hand} in reference to the skeletal left hand of his new patron. The gambler enjoyed years of prosperity, but as always, {@creature The Grinning Sinner|CrookedMoon24} exploited the man's greed and the fine print in the deal, and it all came crashing down."
 			],
 			"images": [
@@ -53535,7 +53534,7 @@
 				"{@creature Golub Graygullet|CrookedMoon24} ({@creature Pigeon Hag|CrookedMoon24}) is the leader of the Vermintoll Coven, as well as the eldest and most powerful of the three hags. Her short and stout body resembles the pigeons she adores, with taloned fingers, a beak-like nose, a puffed-up neck, and mauve skin.",
 				"Just as it was her sisters' roles to corrupt the soul and body of sacrifices to the Crooked Queen, Golub corrupts her victims' minds through the control of information and magical enchantments she weaves. A malignantly proud creature, Golub views every mortal as merely a pawn, tool, or puppet to help advance her own aims, viewing her tactics of seeking, manipulating, and distributing information as far more tasteful than the more uncouth methods favored by her sisters.",
 				"Golub is obsessed with not merely acquiring information, which she primarily gathers through the eyes and ears of her pigeon spies, but in controlling its flow. Every written communication in Wickermoor Village passes through her hands, and she alone decides what is passed on, withheld, or altered. She listens, watches, and whispers from her perch in the Walking Dovecote, choosing whether to deliver truths or lies that aid in her grand designs, even among the Vermintoll Coven and cult of the Crooked Queen.",
-				"Preferring the comforts of town and leveraging the close proximity to the victims of her mental corruption, Golub lives among the people of Wickermoor Village disguised as {@area Theodora Mayville, the postmaster|180|x}. To ensure a more reliable and long-term disguise, she wears the skin of the person she impersonates, needing to change bodies every decade or so to avoid drawing suspicion. The one thing she cannot change between personas is the vibrant lilac eyes cast by her bewitching enchantment. When Golub uses a victim's skin, the disguise is flawless and can't be perceived as false, even through magical means, which detect her as a Humanoid. Golub also has {@variantrule Advantage|XPHB} on Charisma ({@skill Deception|XPHB}) checks while in this disguise."
+				"Preferring the comforts of town and leveraging the close proximity to the victims of her mental corruption, Golub lives among the people of Wickermoor Village disguised as Theodora Mayville, the postmaster. To ensure a more reliable and long-term disguise, she wears the skin of the person she impersonates, needing to change bodies every decade or so to avoid drawing suspicion. The one thing she cannot change between personas is the vibrant lilac eyes cast by her bewitching enchantment. When Golub uses a victim's skin, the disguise is flawless and can't be perceived as false, even through magical means, which detect her as a Humanoid. Golub also has {@variantrule Advantage|XPHB} on Charisma ({@skill Deception|XPHB}) checks while in this disguise."
 			],
 			"images": [
 				{
@@ -53967,7 +53966,7 @@
 			"source": "CrookedMoon24",
 			"entries": [
 				"Leona Cromwell was once a child of Dawn's Gate, learning her letters and numbers under the shadow of Friar Olaf. Yet, over the years, her contempt for the pompous friar festered, driving her away from the monastery. She wandered to Wickermoor Village, picking up odd jobs and eventually working as a town guard. Her fate changed course when a group of highwaymen took her captive. Marius Renathyr came to her rescue and drove the bandits to the marshes south of Moonsong Lake. Rather than flee, she used her skills with a blade to slay their leader and demanded obedience from the weakened crew.",
-				"For years, she was known as Leona the Relentless, leading raids through Wickermoor Hollow. But the guilt of her deeds gnawed at her soul. She learned that the great Sir Marius who saved her life years prior had hung up his sword, and she traveled to his Crimson Monastery to repent. {@area Father Renathyr|2c2|x}, a twisted reflection of the knight he once was, spoke of the Crimson Rose, offering redemption for her tarnished soul. Stricken with guilt but unwilling to let go of the power she craved as a bandit queen, Leona accepted his gift."
+				"For years, she was known as Leona the Relentless, leading raids through Wickermoor Hollow. But the guilt of her deeds gnawed at her soul. She learned that the great Sir Marius who saved her life years prior had hung up his sword, and she traveled to his Crimson Monastery to repent. Father Renathyr, a twisted reflection of the knight he once was, spoke of the Crimson Rose, offering redemption for her tarnished soul. Stricken with guilt but unwilling to let go of the power she craved as a bandit queen, Leona accepted his gift."
 			],
 			"images": [
 				{
@@ -54610,7 +54609,7 @@
 			"source": "CrookedMoon24",
 			"entries": [
 				"The Stable is managed by Marianna Grey (Neutral Good, human {@creature Scout|XMM}), under the direction of Alda. Marianna lives in a dirty room above the Stables. She is shy around people and not considered sociable, but characters who take the time to speak with her find her kind and friendly. Marianna is one of the few people who the ingratiating Alda Farnum is rude toward, the latter thinking herself superior in every way to the stablemistress she employs.",
-				"Marianna's love of four-legged creatures makes her a member of the {@area Fold of the Patient Lady|03a|x}. Her work with horses and heavy equipment makes her muscular and spry, and she keeps her black hair shorn to just a few inches long."
+				"Marianna's love of four-legged creatures makes her a member of the Fold of the Patient Lady. Her work with horses and heavy equipment makes her muscular and spry, and she keeps her black hair shorn to just a few inches long."
 			],
 			"images": [
 				{
@@ -55032,7 +55031,7 @@
 			"name": "Nurse Godlee",
 			"source": "CrookedMoon24",
 			"entries": [
-				"Nurse Sarah Godlee was one of the first to accept {@area the Lethic Serum|450|x} and serves as the second-in-command to {@area Matron Lethica|426|x}. Unlike the other orderlies, she wears no mask, as her form was only mildly contorted by the serum. Freed of the troubles that hindered her former life, she now runs the sanatorium's night-to-night operations as its undisputed enforcer. While Matron Lethica cloaks her methods in gentleness, Godlee prefers intimidation, control, and cruelty.",
+				"Nurse Sarah Godlee was one of the first to accept the Lethic Serum and serves as the second-in-command to Matron Lethica. Unlike the other orderlies, she wears no mask, as her form was only mildly contorted by the serum. Freed of the troubles that hindered her former life, she now runs the sanatorium's night-to-night operations as its undisputed enforcer. While Matron Lethica cloaks her methods in gentleness, Godlee prefers intimidation, control, and cruelty.",
 				"Godlee thrives on power, both over the orderlies under her command and the patients she claims to care for. She sometimes pilfers valuables from the patients to indulge her sense of authority."
 			],
 			"images": [
@@ -56139,7 +56138,7 @@
 			"name": "Slippery Oswald",
 			"source": "CrookedMoon24",
 			"entries": [
-				"{@creature Slippery Oswald|CrookedMoon24} ({@creature Vermin Familiar (Centipede)|CrookedMoon24}) is a rough approximation of a centipede the size of a hound, with grotesquely human-like hands at the end of each appendage and an unsettling human grin. The familiar of {@area Stonoga Blackstinger|3d8|x}, he shares his mistress's glee in the horrid reshaping of flesh into new forms. He can command the squirming hordes of centipedes that crawl throughout Wickermoor Hollow.",
+				"{@creature Slippery Oswald|CrookedMoon24} ({@creature Vermin Familiar (Centipede)|CrookedMoon24}) is a rough approximation of a centipede the size of a hound, with grotesquely human-like hands at the end of each appendage and an unsettling human grin. The familiar of Stonoga Blackstinger, he shares his mistress's glee in the horrid reshaping of flesh into new forms. He can command the squirming hordes of centipedes that crawl throughout Wickermoor Hollow.",
 				"Rather than being a collector of body parts like his weasel counterpart Filthy Jasper, Oswald prefers to create grotesque homes out of his master's victims. He burrows deep into Humanoid carcasses and rearranges the rotting innards to his liking, often lurking within for weeks at a time. Sometimes, he even digs into a healthy person to corrupt and prime their body for flesh shaping while they still live."
 			],
 			"images": [
@@ -56299,8 +56298,8 @@
 			"name": "Stonoga Blackstinger",
 			"source": "CrookedMoon24",
 			"entries": [
-				"Stonoga Blackstinger ({@creature Centipede Hag|CrookedMoon24}) is the middle sister of {@area the Vermintoll Coven|024|x}. Her unnaturally tall and lanky body has morphed overthe years to more closely resemble the centipedes she favors, losing her nose and most of her toes and stretching her neck out by several feet.",
-				"Just as it was her sister Vessla's role in the coven to twist souls in preparation for sacrifice to the {@area Crooked Queen|021|x}, Stonoga is tasked with corrupting bodies. She cares not for the matters of mind and spirit, as all life to her is simply meat to be molded beneath her jagged fingers. But despite this, she has a jovial disposition, taking glee in savoring the suffering of her victims.",
+				"Stonoga Blackstinger ({@creature Centipede Hag|CrookedMoon24}) is the middle sister of the Vermintoll Coven. Her unnaturally tall and lanky body has morphed overthe years to more closely resemble the centipedes she favors, losing her nose and most of her toes and stretching her neck out by several feet.",
+				"Just as it was her sister Vessla's role in the coven to twist souls in preparation for sacrifice to the Crooked Queen, Stonoga is tasked with corrupting bodies. She cares not for the matters of mind and spirit, as all life to her is simply meat to be molded beneath her jagged fingers. But despite this, she has a jovial disposition, taking glee in savoring the suffering of her victims.",
 				"Unlike her sisters, she prefers to hide away in the deepest, darkest holes in the earth where she can be embraced by the squirming swarms of her beloved centipedes. It is in these places that never see the light of the moon where she conducts her alchemy, witchcraft, and fleshcrafting.",
 				"Stonoga has been waiting for the night that her younger sister Vessla is slain, a moment foreseen and deemed a necessary sacrifice by her older sister Golub. The two older hags conspired to allow the weasel hag to be butchered in the Crooked House, but Stonoga has no idea that she herself was deceived. Golub Graygullet believed the middle sister needed to die too, as whispered by the Crooked Queen with the promise of being elevated within the inevitable crooked court of Kehlenn. Golub will aid the characters in hunting down Stonoga if she can."
 			],
@@ -57341,22 +57340,6 @@
 		{
 			"name": "The Phantom Trainhopper",
 			"source": "CrookedMoon24",
-			"images": [
-				{
-					"type": "image",
-					"href": {
-						"type": "external",
-						"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/CrookedMoon24/NPCs/Art/The_Phantom_Trainhopper.webp"
-					},
-					"width": 961,
-					"height": 1200,
-					"credit": "Emanuel Silva"
-				}
-			]
-		},
-		{
-			"name": "The Phantom Trainhopper",
-			"source": "CrookedMoon24",
 			"entries": [
 				"There is one soul aboard the train who doesn't have a ticket to ride: the Phantom Trainhopper ({@creature Shadow|XMM}). In life, they were a member of a secret cult in the living world that worships Kehlenn, the Crooked Queen. Tonight, they were ritually sacrificed so their spirit could sneak aboard the {@i Ghostlight Express} on this rare evening that {@creature Phillip Druskenvald|CrookedMoon24|Phillip} and {@creature Adela Druskenvald|CrookedMoon24} are passengers.",
 				"Granted exceptional power in death by Kehlenn's chief minion, the {@creature Crooked Man|CrookedMoon24}, this malevolent shade carries a curse aboard to corrupt the spirits that the Ghostlight Locomotive uses for fuel. With help from the devouring Shroud, the Phantom Trainhopper turns the ghost train against {@creature the Vagrant|CrookedMoon24} and strands the Druskenvalds\u2014and coincidentally, the characters\u2014in Wickermoor Hollow.",
@@ -57914,7 +57897,7 @@
 			"source": "CrookedMoon24",
 			"entries": [
 				"Folk often come to Murkwater Bend to trade or scheme, but prize fights draw in the largest crowds. Vander Boone (Chaotic Neutral, human {@creature Bandit Captain|XMM}) was one such prize fighter, a brigand-turned-boxer renowned throughout the swamps. He was popular and successful, but he longed for more. He wanted real power, real control, and real respect.",
-				"One night, just short of a year ago, Vander met {@area Mister Crossroads|353|x} and asked for the power to rule the Drowned Crossroads. All would pay tribute to him and seek his approval. But when {@creature The Grinning Sinner|CrookedMoon24} extended his hand, Vander pulled back, shook his head, and told Mister Crossroads he would do it himself. The flabbergasted croc-folk swore that Boone would regret his decision as he walked away."
+				"One night, just short of a year ago, Vander met Mister Crossroads and asked for the power to rule the Drowned Crossroads. All would pay tribute to him and seek his approval. But when {@creature The Grinning Sinner|CrookedMoon24} extended his hand, Vander pulled back, shook his head, and told Mister Crossroads he would do it himself. The flabbergasted croc-folk swore that Boone would regret his decision as he walked away."
 			],
 			"images": [
 				{
@@ -58359,7 +58342,7 @@
 			"entries": [
 				"Mayor Somerton is an officious, self-important man of 50 years. His short, wide frame is constantly clad in finely tailored suits that barely hold his ever-growing girth. He wears a matching bowler hat on his bald head, and his bushy gray eyebrows and handlebar mustache are waxed to maintain their shapes. His cravats are decorated with a jeweled pin in the form of an oak leaf. He does not need, but always carries, a mahogany cane with an emerald handle.",
 				"While he is tolerant and even welcoming to people of all ideologies, Mayor Somerton strongly believes in the Old Ways along with his family. However, he is completely ignorant of the wicked intentions of the cult of the Crooked Queen and only knows Kehlenn as the Green Queen, whom he deeply reveres. He serves as the leader of the Followers of the Old Ways, leading worship of the Green Queen and heading the rituals and rites to harness her power.",
-				"This has made him a useful pawn of the nefarious cult of the Crooked Queen, unknowingly enacting the plans of her servants. The most impactful of these decisions was the gifting of the Lockwood Estate to {@creature Phillip Druskenvald|CrookedMoon24} and preparing for his potential arrival. While most townsfolk, and even Wendel himself, viewed the move as a political maneuver, the idea was planted in his head by {@creature Randall Graham|CrookedMoon24} (see area V7), who knows that {@creature Phillip Druskenvald|CrookedMoon24|Phillip} is the critical piece of the final ritual to free the Crooked Queen and unleash the {@creature Horned King|CrookedMoon24}."
+				"This has made him a useful pawn of the nefarious cult of the Crooked Queen, unknowingly enacting the plans of her servants. The most impactful of these decisions was the gifting of the Lockwood Estate to {@creature Phillip Druskenvald|CrookedMoon24} and preparing for his potential arrival. While most townsfolk, and even Wendel himself, viewed the move as a political maneuver, the idea was planted in his head by {@creature Randall Graham|CrookedMoon24} (see area V7), who knows that {@creature Phillip Druskenvald|CrookedMoon24|Phillip} is the critical piece of the final ritual to free the Crooked Queen and unleash {@creature the Horned King|CrookedMoon24}."
 			],
 			"images": [
 				{
@@ -59891,6 +59874,29 @@
 				[
 					"156",
 					"King of Coins (Reverse). Your hair turns into wriggling venomous snakes that are friendly to you but aggressive to everyone else."
+				]
+			]
+		},
+		{
+			"name": "Heirloom Rarity",
+			"source": "CrookedMoon24",
+			"page": 594,
+			"caption": "Heirloom Rarity",
+			"colLabels": [
+				"Level 1\u20136",
+				"Level 7\u201312",
+				"Level 13+"
+			],
+			"colStyles": [
+				"col-4 text-center",
+				"col-4 text-center",
+				"col-4 text-center"
+			],
+			"rows": [
+				[
+					"Rare",
+					"Very Rare",
+					"Legendary"
 				]
 			]
 		}
@@ -62492,7 +62498,7 @@
 														" \"Oh honey! You might be feelin' like the world has been flipped upside down. Heck, you might even be feelin' powerless or trapped. But the Hanged Man encourages you to live in the moment, have a little patience, and let the solution come to you!\" "
 													]
 												},
-												"If {@i The Hanged Man} is pulled, the {@item Banjo of Ol' Jericho Sticks|CrookedMoon24} is found in the basement of the windmill in {@area Foxwillow|276|x}."
+												"If {@i The Hanged Man} is pulled, the {@item Banjo of Ol' Jericho Sticks|CrookedMoon24} is found in the basement of the windmill in Foxwillow."
 											]
 										},
 										{
@@ -63366,7 +63372,7 @@
 														{
 															"type": "item",
 															"name": "Confrontation",
-															"entry": "After arriving at the Great Sepulcher in Maidenmist Cemetery ({@area area Y2|5d9|x}), {@creature Yorgrim|CrookedMoon24} sees the severed soul and explains that the character must reunite both souls to stop the doppelganger's actions. He shares that, just like his Fallen friends, every soul must be accepted with both the good and bad. The process of reigniting the Balefire Beacons grants the character a sufficient understanding of soul magic to defy their copy and rejoin the souls."
+															"entry": "After arriving at the Great Sepulcher in Maidenmist Cemetery ({@area area Y2|5d9|x}), Yorgrim sees the severed soul and explains that the character must reunite both souls to stop the doppelganger's actions. He shares that, just like his Fallen friends, every soul must be accepted with both the good and bad. The process of reigniting the Balefire Beacons grants the character a sufficient understanding of soul magic to defy their copy and rejoin the souls."
 														},
 														{
 															"type": "item",
@@ -63535,7 +63541,7 @@
 														{
 															"type": "item",
 															"name": "Incitement",
-															"entry": "In the Cauldron Room of the Crooked House ({@area area H17|22a|x}), the character is drawn to symbols etched by {@creature Vessla|CrookedMoon24} that the entity in the flask recognizes as soul magic. The thing guides the character to etch the glyphs on the entity's vessel to prepare it for the grand remedy's alchemical purpose, whispering that the next step is infusing it with blood magic."
+															"entry": "In the Cauldron Room of the Crooked House ({@area area H17|22a|x}), the character is drawn to symbols etched by {@creature Vessla Browntooth|CrookedMoon24|Vessla} that the entity in the flask recognizes as soul magic. The thing guides the character to etch the glyphs on the entity's vessel to prepare it for the grand remedy's alchemical purpose, whispering that the next step is infusing it with blood magic."
 														},
 														{
 															"type": "item",
@@ -63913,7 +63919,7 @@
 														{
 															"type": "item",
 															"name": "Discovery",
-															"entry": "Following the defeat of {@creature Raum|CrookedMoon24} and the banishing of the Fields of the Crow from the farmland around Foxwillow, the souls corrupted by the demonic influence still linger in the fields. The character must erect their first monument to cleanse the demonic spirits. The following augury shows signs of a tide of shrieking souls erupting from a crumbling ruin."
+															"entry": "Following the defeat of Raum and the banishing of the Fields of the Crow from the farmland around Foxwillow, the souls corrupted by the demonic influence still linger in the fields. The character must erect their first monument to cleanse the demonic spirits. The following augury shows signs of a tide of shrieking souls erupting from a crumbling ruin."
 														},
 														{
 															"type": "item",
@@ -64118,7 +64124,7 @@
 														{
 															"type": "item",
 															"name": "Confrontation",
-															"entry": "When exiting the Den of the Blighted One ({@area area F11|584|x}) after the destruction of {@creature Gorthos|CrookedMoon24}, the character is communed with by countless trees that have been cleansed of Hartsblight. A vision of the beautiful Green Queen twists into a crooked tree that serves as the heart of corruption throughout Wickermoor Hollow and must be purged."
+															"entry": "When exiting the Den of the Blighted One ({@area area F11|584|x}) after the destruction of Gorthos, the character is communed with by countless trees that have been cleansed of Hartsblight. A vision of the beautiful Green Queen twists into a crooked tree that serves as the heart of corruption throughout Wickermoor Hollow and must be purged."
 														},
 														{
 															"type": "item",
@@ -64210,7 +64216,7 @@
 														{
 															"type": "item",
 															"name": "Confrontation",
-															"entry": "Once {@creature Gorthos|CrookedMoon24} is slain in the Den of the Blighted One ({@area area F11|584|x}), the spiritual beast appears and devours its remains, growing with strength and fury. The cave's fungus shifts to depict a three-eyed goat with features of a dragon, lion, and serpent. When the beast raises its head from the meal, its head displays the character's face. It then disappears."
+															"entry": "Once Gorthos is slain in the Den of the Blighted One ({@area area F11|584|x}), the spiritual beast appears and devours its remains, growing with strength and fury. The cave's fungus shifts to depict a three-eyed goat with features of a dragon, lion, and serpent. When the beast raises its head from the meal, its head displays the character's face. It then disappears."
 														},
 														{
 															"type": "item",
@@ -69158,7 +69164,7 @@
 														"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/CrookedMoon24/Adventure/060-02-042.thread-of-rejuvination.webp"
 													},
 													"maxHeight": 75,
-													"title": "{@reward Thread of Rejuvination|CrookedMoon24}",
+													"title": "{@reward Thread of Rejuvenation|CrookedMoon24}",
 													"width": 647,
 													"height": 633
 												},
@@ -73597,7 +73603,7 @@
 										"Destroy Mister Crossroads, {@creature The Grinning Sinner|CrookedMoon24}."
 									]
 								},
-								"Before running this chapter, familiarize yourself with Mister Crossroads, the key NPC, to weave his sly malevolence throughout. Study the rules to Liar's Dice (see \"{@area Test of Luck|36c|x}\" later in the chapter) to efficiently oversee tense games of chance. Carefully read through the list of {@adventure Dark Bargains|CrookedMoon|24}, {@area Cursed Curios|a1e|x}, {@area Paranormal Potions|a5c|x}, and {@area Familiars|967|x} to make the meeting with Mister Crossroads in his Sinner's shack as enticing as possible. Lastly, reviewing the climactic battle, \"{@area Bayou Boogie|3bc|x},\" ensures a thrilling final encounter filled with twists and turns.",
+								"Before running this chapter, familiarize yourself with Mister Crossroads, the key NPC, to weave his sly malevolence throughout. Study the rules to Liar's Dice (see \"{@area Test of Luck|36c|x}\" later in the chapter) to efficiently oversee tense games of chance. Carefully read through the list of {@adventure Dark Bargains|CrookedMoon|24}, {@area Cursed Curios|a1e|x}, {@area Paranormal Potions|a5c|x}, and Familiars to make the meeting with Mister Crossroads in his Sinner's shack as enticing as possible. Lastly, reviewing the climactic battle, \"{@area Bayou Boogie|3bc|x},\" ensures a thrilling final encounter filled with twists and turns.",
 								"This chapter is designed for four level 6 characters."
 							]
 						},
@@ -73759,7 +73765,7 @@
 												"\"I made a big mistake...\""
 											]
 										},
-										"Adela then makes her confession. Following the events in Foxwillow, she had offered to join the pilgrims of the Patient Lady to help the townsfolk start rebuilding their lives after the destruction of {@creature Raum|CrookedMoon24}. However, this was a lie so she could secretly go to the Drowned Crossroads after a terrifying vision and prophecy. She's just returned from her trip after making a deal with {@area Mister Crossroads|353|x}.",
+										"Adela then makes her confession. Following the events in Foxwillow, she had offered to join the pilgrims of the Patient Lady to help the townsfolk start rebuilding their lives after the destruction of Raum. However, this was a lie so she could secretly go to the Drowned Crossroads after a terrifying vision and prophecy. She's just returned from her trip after making a deal with {@area Mister Crossroads|353|x}.",
 										"The prophecy stated, \"You and your king shall leave this place on ashen winds when the Crooked Moon snarls with rage and not a night before,\" which shook her to the core. In desperation, she secretly sought out the magician in the swamp after hearing tales from her new confidant Gaston Doray.",
 										"Mister Crossroads promised that Phillip's power would return when it was time to leave the valley, and all it cost was her wedding ring. In desperation, she accepted. After leaving the Drowned Crossroads, she had forgotten the path she took to get there, and her entire left arm began withering away. This affliction can only be reversed if her wedding ring is recovered and returned to her finger or if Mr. Crossroads is killed, though Adela doesn't know this..",
 										"She pleads with the characters to head to the swamp and find a cure for her arm, offering them 150 GP each in return. She also asks them to keep the arrangement secret and to not tell Phillip, promising an extra 50 GP each for their discretion.",
@@ -74175,7 +74181,7 @@
 											"width": 850,
 											"height": 2432
 										},
-										"The vast collection of {@area Mister Crossroads|353|x} consists of {@area Cursed Curios|a1e|x} and {@area Paranormal Potions|a5c|x}. In addition, carved idols and woven dolls resembling creatures can conjure {@area Familiars|967|x}. There is a weathered paper price tag for every item in the shack, each reading \"3 CP.\"",
+										"The vast collection of {@area Mister Crossroads|353|x} consists of {@area Cursed Curios|a1e|x} and {@area Paranormal Potions|a5c|x}. In addition, carved idols and woven dolls resembling creatures can conjure Familiars. There is a weathered paper price tag for every item in the shack, each reading \"3 CP.\"",
 										"When the characters touch one of the items, call out to {@creature The Grinning Sinner|CrookedMoon24}, or turn to leave the shack, Mister Crossroads himself walks heavily down the stairs.",
 										{
 											"type": "insetReadaloud",
@@ -76069,7 +76075,7 @@
 																"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/CrookedMoon24/Adventure/060-02-042.thread-of-rejuvination.webp"
 															},
 															"maxHeight": 75,
-															"title": "{@reward Thread of Rejuvination|CrookedMoon24}",
+															"title": "{@reward Thread of Rejuvenation|CrookedMoon24}",
 															"width": 647,
 															"height": 633
 														},
@@ -76175,7 +76181,7 @@
 										"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/CrookedMoon24/Adventure/060-02-042.thread-of-rejuvination.webp"
 									},
 									"maxHeight": 75,
-									"title": "{@reward Thread of Rejuvination|CrookedMoon24}",
+									"title": "{@reward Thread of Rejuvenation|CrookedMoon24}",
 									"width": 647,
 									"height": 633
 								},
@@ -80511,7 +80517,7 @@
 										"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/CrookedMoon24/Adventure/060-02-042.thread-of-rejuvination.webp"
 									},
 									"maxHeight": 75,
-									"title": "{@reward Thread of Rejuvination|CrookedMoon24}",
+									"title": "{@reward Thread of Rejuvenation|CrookedMoon24}",
 									"width": 647,
 									"height": 633
 								},
@@ -80884,50 +80890,58 @@
 															"caption": "Restless Dead",
 															"colLabels": [
 																"1d12",
-																"Undead",
-																"1d12",
 																"Undead"
 															],
 															"colStyles": [
 																"col-2 text-center",
-																"col-3 text-center",
-																"col-2 text-right",
-																"col-5 text-center"
+																"col-10 text-center"
 															],
 															"rows": [
 																[
 																	"1",
-																	"{@creature Skeleton|XMM}",
+																	"{@creature Skeleton|XMM}"
+																],
+																[
+																	"2",
+																	"{@creature Zombie|XMM}"
+																],
+																[
+																	"3",
+																	"{@creature Shadow|XMM}"
+																],
+																[
+																	"4",
+																	"{@creature Ghoul|XMM}"
+																],
+																[
+																	"5",
+																	"{@creature Ghast|XMM}"
+																],
+																[
+																	"6",
+																	"{@creature Specter|XMM}"
+																],
+																[
 																	"7",
 																	"{@creature Will-o'-Wisp|XMM}"
 																],
 																[
-																	"2",
-																	"{@creature Zombie|XMM}",
 																	"8",
 																	"{@creature Mummy|XMM}"
 																],
 																[
-																	"3",
-																	"{@creature Shadow|XMM}",
 																	"9",
 																	"{@creature Wight|XMM}"
 																],
 																[
-																	"4",
-																	"{@creature Ghoul|XMM}",
 																	"10",
 																	"{@creature Ghost|XMM}"
 																],
 																[
-																	"5",
-																	"{@creature Ghast|XMM}",
 																	"11",
 																	"{@creature Vampire Spawn|XMM}"
 																],
 																[
-																	"6",
-																	"{@creature Specter|XMM}",
 																	"12",
 																	"{@creature Wraith|XMM}"
 																]
@@ -82946,7 +82960,6 @@
 							"width": 1700,
 							"height": 2200
 						},
-						"{@s }",
 						{
 							"type": "quote",
 							"entries": [
@@ -82954,7 +82967,7 @@
 							],
 							"by": "{@creature Geneva Fairchild|CrookedMoon24}"
 						},
-						"Evil nests in Wickermoor Village. Folk go about their daily routines, and the pigeon hag watches and waits for the return of the Crooked Queen. She hides in plain sight amongst them, lea{@s }rning everything they know and guiding what they believe. Golub Graygullet, disguised as Postmaster Theodora Mayville, subtly controls the flow of information and manipulates the minds of the people so that they fall in place when the time is right to free Kehlenn. Until then, she bides her time and pulls the strings, every moment filled with haughty contempt.",
+						"Evil nests in Wickermoor Village. Folk go about their daily routines, and the pigeon hag watches and waits for the return of the Crooked Queen. She hides in plain sight amongst them, learning everything they know and guiding what they believe. Golub Graygullet, disguised as Postmaster Theodora Mayville, subtly controls the flow of information and manipulates the minds of the people so that they fall in place when the time is right to free Kehlenn. Until then, she bides her time and pulls the strings, every moment filled with haughty contempt.",
 						{
 							"type": "section",
 							"name": "Chapter Background",
@@ -83572,7 +83585,7 @@
 																],
 																[
 																	"7",
-																	"A large box of moldy straw, containing three {@creature Swarms of Spider|XMM|Swarms of Spiders}"
+																	"A large box of moldy straw, containing three {@creature Swarm of Spiders|MM|Swarms of Spiders}"
 																],
 																[
 																	"8",
@@ -85414,7 +85427,7 @@
 													"name": "Crooked Door",
 													"id": "6d4",
 													"entries": [
-														"When the characters follow the direction little Adela is dragged, they find a strange, crooked door standing on the forest floor, covered in child-sized white handprints. Any attempt to leave the area around the door triggers the Crooked Nightmare's Infinite Dreams feature. The door opens, beckoning to the characters; it lead{@s }s to area N3."
+														"When the characters follow the direction little Adela is dragged, they find a strange, crooked door standing on the forest floor, covered in child-sized white handprints. Any attempt to leave the area around the door triggers the Crooked Nightmare's Infinite Dreams feature. The door opens, beckoning to the characters; it leads to area N3."
 													]
 												},
 												{
@@ -89463,7 +89476,7 @@
 													"name": "Army of the Dead",
 													"id": "82a",
 													"entries": [
-														"The living dead form most of {@creature The Barrow King's|CrookedMoon24} forces, including {@creature Ghast|XMM|Ghasts}, {@creature Kackle|CrookedMoon24|Kackles}, {@creature Mummy|XMM|Mummies}, {@creature Night Creature|CrookedMoon24|Night Creatures}, {@creature Phantom Hearse|CrookedMoon24|Phantom Hearses}, {@creature Shrouded|CrookedMoon24}, {@creature Specter|XMM|Specters}, {@creature Vampire Spawn|XMM}, {@creature Wight|XMM|Wights}, and {@creature Wraith|XMM|Wraiths}."
+														"The living dead form most of {@creature The Barrow King|CrookedMoon24|The Barrow King's} forces, including {@creature Ghast|XMM|Ghasts}, {@creature Kackle|CrookedMoon24|Kackles}, {@creature Mummy|XMM|Mummies}, {@creature Night Creature|CrookedMoon24|Night Creatures}, {@creature Phantom Hearse|CrookedMoon24|Phantom Hearses}, {@creature Shrouded|CrookedMoon24}, {@creature Specter|XMM|Specters}, {@creature Vampire Spawn|XMM}, {@creature Wight|XMM|Wights}, and {@creature Wraith|XMM|Wraiths}."
 													]
 												},
 												{
@@ -90056,7 +90069,7 @@
 							"height": 981
 						},
 						"This appendix provides 85 monsters who live throughout the setting of {@i The Crooked Moon}. They appear in this book's adventure, and you can use them in your own encounters throughout the thirteen provinces of Druskenvald or anywhere else of your choosing.",
-						"The creatures in this bestiary are organized into three broad categories: \"Crooked Moon Monsters,\" which are the traditional foes faced throughout a dreadful folktale, {@area \"Legendary Monsters\"|90e|x} for the monsters of legend who serve as climactic antagonists in the adventure, and {@area \"Familiars,\"|967|x} which can be recruited by player characters in addition to being encountered as any other monster might. Within each category, the monsters are organized alphabetically. The tables in the pages to come lists every creature in Appendix A, along with the creature's type and CR.",
+						"The creatures in this bestiary are organized into three broad categories: \"Crooked Moon Monsters,\" which are the traditional foes faced throughout a dreadful folktale, \"Legendary Monsters\" for the monsters of legend who serve as climactic antagonists in the adventure, and \"Familiars,\" which can be recruited by player characters in addition to being encountered as any other monster might. Within each category, the monsters are organized alphabetically. The tables in the pages to come lists every creature in Appendix A, along with the creature's type and CR.",
 						{
 							"type": "section",
 							"name": "Using a Stat Block",
@@ -90624,7 +90637,7 @@
 							"id": "97d",
 							"entries": [
 								"Ancient soul-binding magicks twist through the shrouded domain of Druskenvald, drawn to legendary beings with fate-touched souls. This spiritual energy weaves its way through the relics that these entities possess, imbuing them with their wielder's essence and power. Once severed from the mythic figures that shaped them, Fabled Heirlooms can be taken up by new bearers, granting strange and fearsome abilities that continue to awaken as their keepers' souls grow stronger.",
-								"Each Fabled Heirloom is a magic item that grows in strength as its attuned owner gains power. The rarity of each heirloom increases as the character grows in level, as shown on the Heirloom Rarity table. An heirloom's description details the properties it always has, as well as the properties it gains as it increases in rarity. The heirloom has all the properties of its rarity and lower.",
+								"Each Fabled Heirloom is a magic item that grows in strength as its attuned owner gains power. The rarity of each heirloom increases as the character grows in level, as shown on the {@table Heirloom Rarity|CrookedMoon24} table. An heirloom's description details the properties it always has, as well as the properties it gains as it increases in rarity. The heirloom has all the properties of its rarity and lower.",
 								{
 									"type": "table",
 									"caption": "Heirloom Rarity",
@@ -98104,7 +98117,7 @@
 							"page": 595,
 							"entries": [
 								"Ancient soul-binding magicks twist through the shrouded domain of Druskenvald, drawn to legendary beings with fate-touched souls. This spiritual energy weaves its way through the relics that these entities possess, imbuing them with their wielder's essence and power. Once severed from the mythic figures that shaped them, Fabled Heirlooms can be taken up by new bearers, granting strange and fearsome abilities that continue to awaken as their keepers' souls grow stronger.",
-								"Each Fabled Heirloom is a magic item that grows in strength as its attuned owner gains power. The rarity of each heirloom increases as the character grows in level, as shown on the Heirloom Rarity table. An heirloom's description details the properties it always has, as well as the properties it gains as it increases in rarity. The heirloom has all the properties of its rarity and lower.",
+								"Each Fabled Heirloom is a magic item that grows in strength as its attuned owner gains power. The rarity of each heirloom increases as the character grows in level, as shown on the {@table Heirloom Rarity|CrookedMoon24} table. An heirloom's description details the properties it always has, as well as the properties it gains as it increases in rarity. The heirloom has all the properties of its rarity and lower.",
 								{
 									"type": "table",
 									"caption": "Heirloom Rarity",
