@@ -55,7 +55,7 @@ jobs:
 
                 # 3. Commit and Push to the determined target branch
                 git add .
-                git commit -m "Update data"
+                git commit -m "Update data [skip ci]"
                 # Push HEAD to the remote TARGET_BRANCH
                 git push origin HEAD:"${TARGET_BRANCH}"
 
