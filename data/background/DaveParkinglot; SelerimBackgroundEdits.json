@@ -33,8 +33,8 @@
 		],
 		"edition": "one",
 		"dateAdded": 0,
-		"dateLastModified": 1787831683,
-		"_dateLastModifiedHash": "d8ed3dbcd9"
+		"dateLastModified": 1788629597,
+		"_dateLastModifiedHash": "801ea73ce3"
 	},
 	"background": [
 		{
@@ -5922,7 +5922,7 @@
 					"type": "image",
 					"href": {
 						"type": "external",
-						"url": "https://raw.githubusercontent.com/DaveParkinglot/selerim-images/refs/heads/main/img/SelerimBackgrounds/neatbackground.webp"
+						"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/SelerimBackgrounds/neatbackground.webp"
 					}
 				},
 				{
@@ -6146,6 +6146,13 @@
 						"mode": "insertArr",
 						"index": 2,
 						"items": [
+							{
+								"type": "image",
+								"href": {
+									"type": "external",
+									"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/SelerimBackgrounds/carouserbackground.webp"
+								}
+							},
 							{
 								"name": "Suggested Characteristics",
 								"type": "entries",
